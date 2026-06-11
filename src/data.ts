@@ -1,0 +1,276 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+import { WorkItem, BlogPost, CaseStudy } from './types';
+
+export const DESIGNER_INFO = {
+  name: "Marcus Vane",
+  title: "Principal Designer & Digital Artist",
+  location: "San Francisco, CA (Available Worldwide)",
+  about: "I am a multi-disciplinary designer specializing in crafting modern visual universes. By blending meticulous UI/UX craft with dynamic branding, expressive art, and rhythm-driven motion design, I help forward-thinking companies build unforgettable digital landmarks. Over the last 8+ years, I have collaborated with series-A startups, global brands, and independent innovators to transform raw ideas into gorgeous, high-converting interactive realities.",
+  skills: [
+    { category: "UI/UX & Product Design", items: ["Design Systems", "Framer/Figma", "User Research", "Interactive Prototyping", "Information Architecture"] },
+    { category: "Creative Direction & Brand", items: ["Logo Design", "Brand Guidelines", "Visual Identity", "Typography Systems", "Marketing Graphics"] },
+    { category: "Motion & Audio/Video", items: ["After Effects", "Cinematic Color Grading", "Timeline Pacing", "3D Motion Graphics", "Sound Design Mapping"] },
+    { category: "Digital Art & Rendering", items: ["Abstract 3D Artwork", "Generative Art Canvas", "Concept Sketching", "Illustration Grids", "Texture Design"] }
+  ],
+  stats: [
+    { label: "Years Experience", value: "8+" },
+    { label: "Completed Projects", value: "140+" },
+    { label: "Global Design Awards", value: "12" },
+    { label: "GitHub Contributions", value: "1.2k+" }
+  ],
+  testimonials: [
+    {
+      quote: "Marcus completely redefined our visual presence. His work on our branding guidelines and mobile application single-handedly raised our seed round of funding.",
+      author: "Elena Rostova",
+      role: "CEO & Co-founder, Aura Labs"
+    },
+    {
+      quote: "A rare designer who understands both technical constraints and high editorial art. The motion promos Marcus edited for us achieved record-breaking engagement.",
+      author: "Julius Vance",
+      role: "Creative Director, Syndicate Studio"
+    }
+  ]
+};
+
+export const PORTFOLIO_WORKS: WorkItem[] = [
+  // UI/UX Design
+  {
+    id: "pulse-fintech",
+    title: "Pulse: Crypto Assets Dashboard & App",
+    category: "ui-ux",
+    client: "Pulse Finance",
+    year: "2026",
+    description: "A dark-mode high-fidelity cryptocurrency portfolio manager featuring real-time charting structures, atomic design systems, and seamless multi-sig authorization flows.",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80",
+    skills: ["Figma Suite", "Dark Mode UI", "Financial Charts", "Component Architecture", "Design Tokens"],
+    link: "https://figma.com",
+    caseStudyId: "pulse-fintech"
+  },
+  {
+    id: "helios-wellness",
+    title: "Helios: Chronobiological Habit Tracker",
+    category: "ui-ux",
+    client: "Helios Wellness Co.",
+    year: "2025",
+    description: "Mobile user interface designed for alignment with local solar cycles. Includes animated fluid state feedback, customized ring progress metrics, and warm atmospheric gradients.",
+    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=900&q=80",
+    skills: ["iOS Guidelines", "Haptic Mapping", "Neumorphism Details", "Micro-Interactions"],
+    link: "https://figma.com"
+  },
+
+  // Graphic Design
+  {
+    id: "brutalist-posters",
+    title: "Kinesis Brutalist Experimental Posters",
+    category: "graphic-design",
+    client: "Kinesis Art Fair",
+    year: "2025",
+    description: "A physical poster campaign utilizing ultra-high contrast Swiss typography, distressed photo textures, editorial grid systems, and offset duotones.",
+    image: "https://images.unsplash.com/photo-1561070791-26c113006238?auto=format&fit=crop&w=900&q=80",
+    skills: ["InDesign Grids", "Poster Compositing", "Halftone Textures", "Swiss Typography"],
+    link: "https://behance.net"
+  },
+  {
+    id: "nomad-editorial",
+    title: "The Nomad: Travel & Wanderlust Magazine",
+    category: "graphic-design",
+    client: "Nomad Press",
+    year: "2026",
+    description: "Print and tablet magazine layouts combining asymmetric headings, ample whitespace breathing room, full-bleed scenic photography borders, and elegant serif typography.",
+    image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=900&q=80",
+    skills: ["Editorial Direction", "Print Production", "Grid Alignment", "Type Hierarchy"]
+  },
+
+  // Artworks
+  {
+    id: "chroma-waves",
+    title: "Chroma Waves: Abstract 3D Sculpt Series",
+    category: "artwork",
+    client: "Self-initiated NFT Campaign",
+    year: "2026",
+    description: "A series of digital abstract models exploring ambient liquid chrome refraction, soft holographic materials, and deep light-bending shadows.",
+    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=900&q=80",
+    skills: ["Blender 3D", "Octane Render", "Holographic Shaders", "Digital Composition"]
+  },
+  {
+    id: "cyber-distortion",
+    title: "Cybernetic Distortion & Synthetic Glitch Space",
+    category: "artwork",
+    client: "Neo-Tkyo Exhibition",
+    year: "2025",
+    description: "Vector exploration of retro-futuristic circuitry grids, neon-split layouts, and generative grid particles simulating sensory cyber environments.",
+    image: "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?auto=format&fit=crop&w=900&q=80",
+    skills: ["Generative Art", "Vector Drafting", "Neon Post-processing", "Glitch Texturing"]
+  },
+
+  // Video Editing
+  {
+    id: "synthetic-runway",
+    title: "Synthetic Runway: Fashion Film Cut",
+    category: "video-edit",
+    client: "Veridian Apparel",
+    year: "2026",
+    description: "Dynamic visual promo cut containing rhythmic editing, custom speed ramps, chromatic aberration flashes, and deep synthesis sound effects.",
+    image: "https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&w=900&q=80",
+    skills: ["Premiere Pro", "Rhythmic Syncing", "Color Grading C-Log", "Kinetic Captions"],
+    videoUrl: "https://www.w3schools.com/html/mov_bbb.mp4" // Real testing video clip path
+  },
+  {
+    id: "future-cities",
+    title: "Future Cities: Cinematic Drone Retrospective",
+    category: "video-edit",
+    client: "Omni Media Corp",
+    year: "2025",
+    description: "A gorgeous 4K high-density city drone montage featuring subtle visual effects enhancements, camera stabilization mapping, and a cinematic atmospheric score.",
+    image: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=900&q=80",
+    skills: ["After Effects", "Drone Stabilization", "Atmospheric LUTs", "VFX Compositing"],
+    videoUrl: "https://www.w3schools.com/html/movie.mp4" // Real testing clip
+  },
+
+  // Logo & Branding
+  {
+    id: "aura-skincare",
+    title: "Aura Skincare Brand Rebrand & Guidelines",
+    category: "logo-branding",
+    client: "Aura Labs",
+    year: "2026",
+    description: "Holistic modern rebrand representing botanical cleanliness. Includes minimalist monoline logos, earth-tone color systems, customized glass jar labels, and geometric typography rules.",
+    image: "https://images.unsplash.com/photo-1527061011665-3652c757a4d4?auto=format&fit=crop&w=900&q=80",
+    skills: ["Brand Guidelines", "Minimalist Logo", "Product Packaging", "Eco Stock Selector"],
+    caseStudyId: "aura-skincare"
+  },
+  {
+    id: "volt-electric",
+    title: "Volt Electric Mobility Identity Systems",
+    category: "logo-branding",
+    client: "Volt Micro",
+    year: "2025",
+    description: "A hyper-dynamic identity system built on geometric angles, neon-green electric color swatches, active charging icons, and fluid responsive guidelines for hardware.",
+    image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=900&q=80",
+    skills: ["Vector Branding", "Stationery Layouts", "Hardware Marking", "Symbol Synthesis"]
+  }
+];
+
+export const BLOG_POSTS: BlogPost[] = [
+  {
+    id: "typography-grids",
+    title: "The Silent Grid: How Typography Guides Eyes on Minimal Portfolios",
+    excerpt: "An in-depth look at visual hierarchy, modern lettering contrast, and why intentional negative space beats visual clutter every single time.",
+    date: "May 24, 2026",
+    readTime: "5 min read",
+    category: "Typography & Layouts",
+    tags: ["Grid systems", "Minimalism", "Aesthetics", "Font pairings"],
+    image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80",
+    content: [
+      "In design, quietness is a superpower. When developers or designers attempt to build personal landing pages or GitHub portfolios, they often feel an urge to fill every pixels of empty width with animated charts, logs, or secondary buttons. Truly exceptional interfaces, however, breathe through structural negative space.",
+      "The layout grid is the skeletal framework of readability. By aligning primary headings to dynamic asymmetric columns, you form a clear scanning order for potential clients, hiring directors, and design partners. Space is not passive; it acts as an active visual delimiter that chunks information cleanly.",
+      "When styling headings, choose display fonts that convey your design character (like Space Grotesk) and pair them with humble, practical geometric sans-serif fonts for the text (such as Inter). Keep your font scale tightly grouped: four sizes are usually enough to cover everything from caption texts to display blocks. Consistency establishes cognitive trust.",
+      "Remember that readability is about more than just font choices. It is the perfect balance of font size, line-height, character spacing (tracking), and container margins. If a reader can scan your story without squinting or feeling visual cognitive load, they will absorb, register, and remember your work."
+    ]
+  },
+  {
+    id: "video-rhythm-cuts",
+    title: "Pacing and Rhythm: Post-Production Secrets for Modern Video Directors",
+    excerpt: "How to edit cinematic videos, master transition pacing, synchronize custom soundtracks, and maintain tension throughout a high-energy corporate showcase.",
+    date: "April 18, 2026",
+    readTime: "7 min read",
+    category: "Video & Motion",
+    tags: ["Video Editing", "Rhythm Sync", "Color Grading", "Film Pacing"],
+    image: "https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&w=600&q=80",
+    content: [
+      "Most video editors approach cuts as simple logical dividers between video clips. Rich, memorable editing treats cuts as musical beats. Synchronizing timeline markers directly with audio transients or quiet frequencies sets up a rhythmic dialogue that keeps the viewer's eyes glued to the screen.",
+      "To prevent your flow from becoming monotonous, practice the principle of rhythmic contrast. Group rapid, high-intensity cuts and fast speed-ramps inside active transition points, then contrast them with long, steady, static panoramic frames immediately following. These momentary pauses give the brain a fraction of a second to register the narrative gravity.",
+      "Color grading is your emotional anchor. C-Log footage often feels flat and gray on extraction, but applying a stylized, low-saturation lut combined with deep, warm midtones establishes an instant 'indie cinema' mood. Never let automatic presets govern your timeline; color is light, and light is story.",
+      "Lastly, don't overlook sound effects (SFX) layering. The visual track of a car racing by only reaches half its potential without a custom sub-bass riser, low metallic sweeps, or ambient atmospheric hums embedded behind. Designing multi-layered acoustic soundscapes completes the immersive environment."
+    ]
+  },
+  {
+    id: "framer-motion-physics",
+    title: "Bringing UI/UX alive using Framer Motion and Spring Physics",
+    excerpt: "Ditch boring linear transitions. Learn how to map spring mass, stiffness, and damping to create smooth, natural elastic interfaces in React.",
+    date: "March 02, 2026",
+    readTime: "4 min read",
+    category: "Interactive Tech",
+    tags: ["Framer Motion", "Animation Physics", "React UI", "Dynamic Tabs"],
+    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80",
+    content: [
+      "Standard digital interfaces rely heavily on linear transitions—fading elements in exactly 200ms with a straightforward ease-in curve. In the physical world, elements never accelerate or decelerate instantly. Dynamic, lifelike animations should match real-world physical forces.",
+      "Spring-based physics engines calculate physical motion dynamically using physical properties like mass, stiffness, and damping. Mass governs how heavy an object feels, stiffness controls how tightly it recoils, and damping determines how fast the oscillation settles down to a flat line.",
+      "In Framer Motion, assigning a bounce parameter of 0.25 to custom layout-changing navigation tabs allows smooth slide-overs. When clicking menu links, rather than simply hiding and revealing sections, use full layout animations (layoutId) to smoothly glide the selection border from the previous button to the next.",
+      "Use subtle delay staggering (e.g. 0.05s increments) on children lists to let elements rise elegantly as a single wave rather than dumping all cards on screen simultaneously. Polishing micro-behaviors indicates outstanding structural design."
+    ]
+  }
+];
+
+export const CASE_STUDIES: CaseStudy[] = [
+  {
+    id: "aura-skincare",
+    category: "logo-branding",
+    title: "Aura Skincare Rebrand & Botanical Visual Identity",
+    client: "Aura Labs Inc.",
+    timeline: "3 Months (Q1 2026)",
+    role: "Lead Brand Identity Designer",
+    challenge: "Aura Labs had created high-quality, scientifically proven botanical serums, but their existing plastic branding made them look like generic pharmacy items. They needed a luxury, ecological, premium brand image capable of standing out on visual social shelves and high-end organic boutique stores.",
+    solution: "We designed a holistic, high-nature visual identity system focusing on tactile minimalism. Combining organic earth tones (moss green, raw clay, warm desert linen) with a clean monoline typographic mark, we custom-designed embossed label matrices, eco-responsible glass jars, and thorough brand guidelines.",
+    process: [
+      {
+        title: "1. Brand Auditing & Vision Aligning",
+        description: "Evaluated competitors in the premium skincare sphere. We established that while competitors used aggressive modern science labels, Aura could represent a harmonious 'nature-meets-laboratory' balance.",
+      },
+      {
+        title: "2. Monoline Typography & Mark Selection",
+        description: "Engineered a minimalist geometry logo featuring overlapping soft botanical leaves, aligned completely within a perfect circle. Hand-polished serif tracking for the brand lettering.",
+      },
+      {
+        title: "3. Packaging Materials & Layout Mocking",
+        description: "Sourced post-consumer recycled thick amber glass containers and textured cotton labels that feel rough and luxury to organic hands.",
+      },
+      {
+        title: "4. Building the Digital Brand Playbook",
+        description: "Constructed detailed rules for secondary fonts, strict safe-zone spacing boundaries, color contrast standards for digital screens, and creative campaign themes.",
+      }
+    ],
+    results: [
+      { metric: "Design Award Nominations", value: "3", description: "Secured nominations in global packaging categories." },
+      { metric: "B2B Retail Pickups", value: "+300%", description: "Organic boutiques and hotel chains picked up Aura serums in record time." },
+      { metric: "Instagram Engagement", value: "+74%", description: "Aesthetic bottle photography naturally boosted social media sharing." }
+    ]
+  },
+  {
+    id: "pulse-fintech",
+    category: "ui-ux",
+    title: "Pulse Crypto Dashboard Interface & Atomic Design System",
+    client: "Pulse Finance Corp",
+    timeline: "4 Months (Winter 2025)",
+    role: "Principal Product Designer",
+    challenge: "Traditional cryptocurrency dashboards are notoriously cluttered, overwhelming retail investors with flashing numbers, disconnected data columns, and visual noise. Pulse needed a highly calming, accessible, dashboard interface that keeps metrics clean and empowers users to trade with high confidence.",
+    solution: "We engineered a modular widget-based dashboard layout utilizing a soothing deep-ocean color scale, high-precision typography components, and visual charts that compress data without losing detail. We bundled this into an extensible atomic design system.",
+    process: [
+      {
+        title: "1. Persona Wireframing & Task Optimization",
+        description: "Conducted user research with 20 active crypto investors. Discovered that the primary pain point was checking multi-sig transactions without visiting scanning pages.",
+      },
+      {
+        title: "2. Setting up the Atomic Design Token System",
+        description: "Built strict tokens for borders, corners, semantic error colors, and layout widths in Figma to allow engineers to build and edit code modularly.",
+      },
+      {
+        title: "3. Chart Clutter Reduction & Refraction",
+        description: "Created simplified custom canvas graphs showing candle vectors, volume trends, and moving averages on light-hovering interactions only.",
+      },
+      {
+        title: "4. Stress-Testing in Real environments",
+        description: "Tested the wireframes with light/dark contrast and rapid price changes to verify immediate readability across different viewport environments.",
+      }
+    ],
+    results: [
+      { metric: "Onboarding Fluidity", value: "+45%", description: "Users completed their first cold-wallet configuration in half the usual steps." },
+      { metric: "Active Daily Session Retention", value: "82%", description: "High retention rates attributed to the clean design." },
+      { metric: "Engineering Transfer Speed", value: "2x", description: "Shared Figma design tokens minimized frontend coding iterations." }
+    ]
+  }
+];
