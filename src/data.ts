@@ -6,52 +6,47 @@
 import { WorkItem, BlogPost, CaseStudy } from './types';
 
 export const DESIGNER_INFO = {
-  name: "Marcus Vane",
-  title: "Principal Designer, AI Visual Artist & Social Strategist",
-  location: "San Francisco, CA (Available Worldwide)",
-  about: "I am a multi-disciplinary designer and creative strategist specializing in modern visual universes, advanced Generative AI prompt engineering, and high-impact social media management. By blending meticulous UI/UX craft with dynamic branding, data-driven social growth loops, and rhythm-driven motion design, I help forward-thinking companies build unforgettable digital landmarks and scale engaged online communities.",
+  name: "Jenny Grace Apo",
+  title: "Multimedia & Social Media Specialist",
+  location: "Quezon City, Philippines",
+  about: "I am a multi-disciplinary designer and creative strategist from the Philippines, driven by a deep passion for the fascinating connection of creativity and technology. I enjoy bringing ideas to life through engaging multimedia experiences that connect, resonate, and inspire. Beyond design, you’ll also find me streaming games and sharing gameplay highlights across various social media platforms.",
   skills: [
     { 
       category: "Generative AI & Prompting", 
-      items: ["Midjourney & FLUX Workflows", "Advanced Prompt Engineering", "ControlNet & LoRA Fine-Tuning", "AI Concept Art & Storyboarding", "Consistent Character Seeding", "Latent Space Style Tuning"] 
+      items: ["AI Acumen", "AI for Brainstorming and Planning", "AI for Content Creation", "AI for Data Analysis", "AI for Research and Insights", "AI for Writing and Communicating", "Prompt Engineering"] 
     },
     { 
       category: "Social Media Management", 
-      items: ["Omni-Channel Content Strategy", "Viral Hook & Narrative Design", "Instagram & TikTok Growth", "Audience Engagement Analytics", "Brand Voice & Community Building", "Campaign Launch Roadmaps"] 
+      items: ["Viral Hook & Narrative Design", "Social Media Page Growth", "Audience Engagement Analytics", "Brand Voice & Community Building", "Campaign Launch Roadmaps"] 
     },
     { 
-      category: "UI/UX & Product Design", 
-      items: ["Design Systems", "Framer/Figma Suite", "User Research & Journey Mapping", "Interactive Prototyping", "Information Architecture"] 
+      category: "UI/UX Design", 
+      items: ["Design Systems", "Figma Suite", "User Experience Design", "Interactive Prototyping", "Design Research", "Sprint Retrospectives and Planning"] 
     },
     { 
-      category: "Creative Direction & Brand", 
+      category: "Creative Direction & Brand Identity", 
       items: ["Logo Design & Identity", "Brand Guidelines", "Typography Systems", "Marketing Collateral", "Packaging Direction"] 
     },
     { 
-      category: "Motion & Audio/Video", 
-      items: ["After Effects & Premiere", "Cinematic Color Grading", "Timeline Pacing & Sync", "3D Motion Graphics", "Sound Design Mapping"] 
+      category: "Video Editing & Motion Design", 
+      items: ["After Effects & Premiere", "Cinematic Color Grading", "Timeline Pacing & Sync", "2D Motion Graphics", "Visual Storytelling"] 
     },
     { 
-      category: "Digital Art & 3D Rendering", 
-      items: ["Abstract 3D Artwork", "Generative Art Canvas", "Concept Sketching", "Illustration Grids", "Texture & Shader Design"] 
+      category: "Traditional & Digital Art", 
+      items: ["Realistic Portrait", "Fan Art"] 
     }
   ],
   stats: [
-    { label: "Years Experience", value: "8+" },
+    { label: "Years Experience", value: "4+" },
     { label: "Completed Projects", value: "160+" },
     { label: "Social Reach Generated", value: "12M+" },
     { label: "AI Image Prompts Crafted", value: "25k+" }
   ],
   testimonials: [
     {
-      quote: "Marcus completely redefined our visual presence and social media footprint. His expertise in Generative AI prompting cut our concept turnaround by 70%, while his social content strategy drove a 300% surge in qualified leads.",
-      author: "Elena Rostova",
-      role: "CEO & Co-founder, Aura Labs"
-    },
-    {
-      quote: "A rare designer who understands both technical prompt architectures, high editorial art, and the algorithmic nuances of viral social channels. His launch campaign achieved record-breaking engagement.",
-      author: "Julius Vance",
-      role: "Creative Director, Syndicate Studio"
+      quote: "Jenny is a true visual artist—a creative force with mastery in digital and traditional media. Her work reflects a deep understanding of visual communication in graphic design, illustration, branding, or layout. She brings a fresh, original perspective to every project, making her creative output visually compelling and strategic.",
+      author: "Jasper Briones",
+      role: "Marketing Manager, Havitas Developments Corporation "
     }
   ]
 };
