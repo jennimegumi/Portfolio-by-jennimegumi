@@ -57,11 +57,11 @@ export const DESIGNER_INFO = {
 };
 
 export const PORTFOLIO_WORKS: WorkItem[] = [
-  // Generative AI Prompting & Artworks
+  // Graphic Design
   {
     id: "reks-rf-klook-poster",
     title: "Roller Fever Klook Promotional Poster",
-    category: "logo-branding",
+    category: "graphic-design",
     client: "REKS Amusement Com, Inc.",
     year: "2025",
     description: "A promotional poster for the launch of Klook as official ticket vendor of Roller Fever.",
@@ -72,7 +72,7 @@ export const PORTFOLIO_WORKS: WorkItem[] = [
   {
     id: "reks-rf-promo-poster",
     title: "Roller Fever Valentine's Day Engagement Poster",
-    category: "logo-branding",
+    category: "graphic-design",
     client: "REKS Amusement Com, Inc.",
     year: "2025",
     description: "An engagement poster for the Valentine's Day event with the social media audience as the brand's potential customers.",
@@ -83,14 +83,237 @@ export const PORTFOLIO_WORKS: WorkItem[] = [
   {
     id: "reks-da-klook-poster",
     title: "Dino Adventure Klook Promotional Poster",
-    category: "logo-branding",
+    category: "graphic-design",
     client: "REKS Amusement Com, Inc.",
     year: "2025",
     description: "A promotional poster for the launch of Klook as official ticket vendor of Dino Adventure.",
     image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/490192770_1138729894932475_691045979955773316_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s1080x1080&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFwnWWgdOoKrmCAvtjboajL7qcttDe5bPnupy20N7ls-Qx116iwbo3DQ_8ldzH7UO1Us2GWgNhrcSXH4eOhZMfa&_nc_ohc=lSgtq2fWwycQ7kNvwHu_mTt&_nc_oc=AdqnMYIYxy9wAwovQUIujy_3n2VOVyNTblm5Id18kCgDwdl6yUpju6s6Hsbp5sUrxyM&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=Hz7HskJc2vx0aWe_aOCqyg&_nc_ss=7b2a8&oh=00_AQFJ3vyIldQbyrvxb3jNKyAeS346qaR3c_TOMFpzsgRqcQ&oe=6A849282",
     skills: ["Brand Guidelines", "Typography Systems", "Marketing Collateral", "Canva"],
     link: "https://web.facebook.com/photo.php?fbid=1070778375060961&type=3"
+  },   
+  {
+    id: "reks-da-branch-poster",
+    title: "Dino Adventure Branch Promotional Poster",
+    category: "graphic-design",
+    client: "REKS Amusement Com, Inc.",
+    year: "2025",
+    description: "A promotional poster for the accessible branch of Dino Adventure.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/489670764_1138994618239336_3340707498731801696_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s1080x1350&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEYSjZPjFtO1DeZvg2vAptN2pMge3CICTnakyB7cIgJOR5TiCRPfM32WT-QcaNUEv7POVnxqNzJP0D-NxtoaTp_&_nc_ohc=96xAXYNcTHEQ7kNvwE1IaHL&_nc_oc=AdqPUkNHxgmmnOiXgl1Zye5Dhh7a49nmkm6S7j_Ky2pybvc2_QRft2xWFfUYX1gArPk&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=r1YpydlcgXErNmKvzUj6Gw&_nc_ss=7b2a8&oh=00_AQEw5C3nXyRcxuJ-J6vVRNQkTCdQilWVSMbSd7lwFEqvXg&oe=6A848113",
+    skills: ["Brand Guidelines", "Typography Systems", "Marketing Collateral", "Canva"],
+    link: "https://web.facebook.com/photo.php?fbid=1087170090088456&type=3"
   },
+  {
+    id: "reks-fc-valentines-poster",
+    title: "Fiesta Carnival Valentine's Day Poster",
+    category: "graphic-design",
+    client: "REKS Amusement Com, Inc.",
+    year: "2025",
+    description: "A promotional poster for the celebration of Valentine's Day at Fiesta Carnival.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/479486629_122128038890402308_5531408647358600215_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s1080x1350&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEoecE86xCbUeJCKKu1buqLF5kZPKrYhEkXmRk8qtiESYVijGczCgR7LFNBK9CFzHARzD_bD84fnkYwqCriZobs&_nc_ohc=lEAasyYOllsQ7kNvwFU3t39&_nc_oc=AdrrU_stui__RHnP-86OhqNTaIXGwBQr91LoegGe5UjPA-MXbJ-59hsYIF2cgIwFxmA&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=s05_2JWdMgwwTYCprQJkTA&_nc_ss=7b2a8&oh=00_AQGy3XGOAknf_kZmgYH7OvzDbHnv9UMCbwzyFKrEIMc54Q&oe=6A84799F",
+    skills: ["Brand Guidelines", "Typography Systems", "Marketing Collateral", "Canva"],
+    link: "https://web.facebook.com/photo.php?fbid=122128038884402308&type=3"
+  },
+  {
+    id: "reks-csp-price-list",
+    title: "Champion Sports Park Price List Poster",
+    category: "graphic-design",
+    client: "REKS Amusement Com, Inc.",
+    year: "2025",
+    description: "A promotional poster for the Champion Sports Park price list.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/475518372_122116976048631565_4119890374308295186_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s1080x1080&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeH1B-5jo054sR9-4jnvdPlJ_X9mZ_GGwuf9f2Zn8YbC50uC_U6WX0KL7IxpzEn1aQztvKPA5Sm2nrwc2I1gcqNM&_nc_ohc=gyESYqco_4oQ7kNvwH4ODgN&_nc_oc=Adozh3cSnAN4L5wjYkCtNuy0THgn15IOIADBI7_lR5lVlFNom7voWnYYpzf3YyASEBc&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=qlqouao73uJKe_Zwcbdeqg&_nc_ss=7b2a8&oh=00_AQGW21gerPHzJJObMP396kopu_gj97Qkg2KR306pJdcuQA&oe=6A847995",
+    skills: ["Brand Guidelines", "Typography Systems", "Marketing Collateral", "Canva"],
+    link: "https://web.facebook.com/photo.php?fbid=122116976042631565&type=3"
+  },
+  {
+    id: "reks-csp-promo-poster",
+    title: "Champion Sports Park Facebook Page Promotional Poster",
+    category: "graphic-design",
+    client: "REKS Amusement Com, Inc.",
+    year: "2025",
+    description: "A promotional poster for the Champion Sports Park Facebook page.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/476131106_122117394686631565_9047642522893396827_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s1080x1350&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeG-TQLhCSX4M-sMCe-GUqdpulBiuJ2ntS-6UGK4nae1LyRd8aCYEgau7wR6jZ4hBahcqOJzlah3zWauEOTrB8s7&_nc_ohc=BqpFeUicj0UQ7kNvwEAO7ED&_nc_oc=AdoRAeqCclGum3ZJKNEauJBYrZSGz3ASL2we9d0IY4up6myeG_AKHqTqrG2mx1rzY3E&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=qgLn6xzYujvIwnjV7kMUOQ&_nc_ss=7b2a8&oh=00_AQFfB2pOM41r2qhDY-heZGyLmT8MSMthaBS4IHVuUxx95A&oe=6A848BA0",
+    skills: ["Brand Guidelines", "Typography Systems", "Marketing Collateral", "Canva"],
+    link: "https://web.facebook.com/photo/?fbid=122117397542631565"
+  },
+  {
+    id: "reks-csp-valentines-poster",
+    title: "Champion Sports Park Valentine's Day Promotional Poster",
+    category: "graphic-design",
+    client: "REKS Amusement Com, Inc.",
+    year: "2025",
+    description: "A promotional poster for the Champion Sports Park Valentine's Day event.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/480119918_122118738752631565_2814328587837043435_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s1080x1350&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFpzS4B61tr9RHqMpOjHg33q6MP2M53uEWrow_Yzne4RTruMbH1PHjKHEZauCxxwPeQXSsAI1Pvl9vCehUj1pQI&_nc_ohc=8fCHrcXw4TYQ7kNvwFVIQyt&_nc_oc=AdrAG0qoXbYJRAMOJjVCBLoUafaYwnTHU_eJ_CJ9qLG_2_X4Qjmm0-v8Wcj39nQqcKI&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=WEWmQhhnWdQbBAJFfrw-Pg&_nc_ss=7b2a8&oh=00_AQGaRvLn3d5b3m3lgOTphWeXxcvUBQhML9HhaQrTVUzdYQ&oe=6A8464C3",
+    skills: ["Brand Guidelines", "Typography Systems", "Marketing Collateral", "Canva"],
+    link: "https://web.facebook.com/share/p/1Dg5F4CogN/"
+  },
+  {
+    id: "tecphil-team-poster",
+    title: "TecPhil Geosolutions Team Poster",
+    category: "graphic-design",
+    client: "TecPhil Geosolutions Co.",
+    year: "2025",
+    description: "A team poster for the TecPhil Geosolutions Co. promoting their collaborative efforts and services.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/547265047_1329858889152368_5441641203975297517_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s1080x1080&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGDksVHhDnMizUxpO0tyGHRgd6qsgm3nR-B3qqyCbedH4xFU-YkLD_6Jz1XfoM5oXAr4dkTiJb-DT7wDK9bXZDj&_nc_ohc=4liv_-ZyFkEQ7kNvwENuonc&_nc_oc=AdqbQmdsd5rnkgeFQPJ_zC8C3jrGjntglfHNgOEM16qf0V5p4NlI5LxtPJfL6Xr7XD8&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=ogZajlHMDaUWQJG7LL2Fbg&_nc_ss=7b2a8&oh=00_AQG172nwCm865QI5WkpPzyVRxHVmwp5Nv3Vvpg6RPBP_CA&oe=6A84796D",
+    skills: ["Brand Guidelines", "Typography Systems", "Marketing Collateral", "Canva"],
+    link: "https://web.facebook.com/share/p/1CT15AMvp3/"
+  },
+  {
+    id: "tecphil-tersus-ts-poster",
+    title: "TecPhil Tersus TAS-Z1 Total Station Poster",
+    category: "graphic-design",
+    client: "TecPhil Geosolutions Co.",
+    year: "2025",
+    description: "A series of specification poster of the Tersus TAS-Z1 Total Station, distributed by TecPhil Geosolutions Co.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/546779218_1330863979051859_7434316729652278405_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s1080x1080&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeF7gQl5hu7gxSJFvhMojogT_uDuK4iTtLn-4O4riJO0udYJsF3r05nmlHOfmeaYbBBkTR81cVXwNq14mBx1flx1&_nc_ohc=TpypWDnWiDEQ7kNvwGX8gBa&_nc_oc=AdrPRTbw4plsLfyd7Hh5wSS3vIk51VZEkAfU7tyTF6ROg0KHoBY-mGUbB_obQw2uT-4&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=6hns0zVO94nw9cqhnt3xGw&_nc_ss=7b2a8&oh=00_AQFdCfIDWp5NG_DUa0yKBlfA22cX7KMfYA_Z5hO_fAyGXw&oe=6A849BAA",
+    skills: ["Brand Guidelines", "Typography Systems", "Marketing Collateral", "Canva"],
+    link: "https://web.facebook.com/share/p/195TB5ePhF/"
+  },
+  {
+    id: "tecphil-quote-poster",
+    title: "TecPhil Surveying Quote Poster",
+    category: "graphic-design",
+    client: "TecPhil Geosolutions Co.",
+    year: "2025",
+    description: "An inspirational quote poster for TecPhil Geosolutions Co., highlighting the importance of precision and accuracy in surveying.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/548799705_1332663312205259_7971953194558437404_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s1080x1080&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHyeFO3ZDbCS27xhnhsNsVeNfnFOqkvfX01-cU6qS99fW6aSEyJTNySskGTvaFsb_9zCQ2Ve9nY2nBFGGbHGf1p&_nc_ohc=FcxJRSOGDEkQ7kNvwF_LNYD&_nc_oc=Adqta-FVAv0IkR7_7qDLhpPwJHz4CSGM3_QrcVprEoWfjGGrO8OcZaQOPcPQoUM1dW4&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=dKpdLs8_GlLvwLfnqkVSDg&_nc_ss=7b2a8&oh=00_AQGFZXfJlOnH_q6LNHKBsoC6vsRjb7BnCBrJP22N8PtmPg&oe=6A849C51",
+    skills: ["Brand Guidelines", "Typography Systems", "Marketing Collateral", "Canva"],
+    link: "https://web.facebook.com/share/p/1QbeEuNZU5/"
+  },
+  {
+    id: "tecphil-testimony-poster",
+    title: "TecPhil Review/Testimony Poster",
+    category: "graphic-design",
+    client: "TecPhil Geosolutions Co.",
+    year: "2025",
+    description: "A testimonial poster for TecPhil Geosolutions Co., showcasing customer satisfaction and the value of their surveying services.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/559647353_1355911346547122_3686629196930125243_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s1080x1080&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=f727a1&_nc_eui2=AeEz8IPhQiCOZzMZlUCf2kFHrnkowd82E7iueSjB3zYTuOosdfSF4-4dHbI-MBzShdcBgNb4ZXvbO4Dx9u1yqqIa&_nc_ohc=eUbPk8e8VQcQ7kNvwHfd-_q&_nc_oc=AdpBmtFO4k7sirMIsop1NIWz1HdZlopQ7mGrl4QRSMXleSGBd3ZmKfGjeX3I5mhimgk&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=xrKLgy8MA25iB4kDJ91mkw&_nc_ss=7b2a8&oh=00_AQF-vrZU1iQc6swdQdHXdmGVGJaZnJ7I8hj4NPVUI6kxIQ&oe=6A84934F",
+    skills: ["Brand Guidelines", "Typography Systems", "Marketing Collateral", "Canva"],
+    link: "https://web.facebook.com/share/p/1JLkQLmkym/"
+  },
+  {
+    id: "tecphil-tersus-oscar-poster",
+    title: "TecPhil Tersus Oscar GNSS Receiver Poster",
+    category: "graphic-design",
+    client: "TecPhil Geosolutions Co.",
+    year: "2025",
+    description: "A promotional poster of Tersus Oscar GNSS Receiver distributed by TecPhil Geosolutions Co.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/586015845_1390714813066775_7449980708960073722_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s1080x1080&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeG5zneqyJYyTgkg2TMo4qlP4-jGbEqGBqvj6MZsSoYGq51b7RFiL-kfYsvmy13ud7z2qnaj-ZbQhDAEZ-RYSnCR&_nc_ohc=vCm1vmHOwP8Q7kNvwFtfbd5&_nc_oc=AdpMVDKw0u7PtpgWR7bpQrzBBK-P9yBeFhnzrstrNdzXOesV2GnFqCuGGGoOaZJ2EzE&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=pIP6iZ1Z4Mg0rK_Y0wJCzQ&_nc_ss=7b2a8&oh=00_AQGz6N3P7KpVuwPsqNlIo2WSgkVEVEbuzJukdMeqmJ1Z4A&oe=6A8496D8",
+    skills: ["Brand Guidelines", "Typography Systems", "Marketing Collateral", "Canva"],
+    link: "https://web.facebook.com/share/p/19RUNc14ZJ/"
+  },
+  {
+    id: "tsms-myth-vs-fact-poster",
+    title: "TSMS Myth vs. Fact Poster",
+    category: "graphic-design",
+    client: "TecPhil Surveying and Mapping Services",
+    year: "2025",
+    description: "An educational poster for TecPhil Surveying and Mapping Services, highlighting common myths and facts about surveying.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/571203927_122159391615000761_307910532459524839_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s1080x1080&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_aid=0&_nc_eui2=AeFp7vo5_4J06kDdg6Yd1RRGRSPrEPUQCuRFI-sQ9RAK5EnjlZVmULBLo8AIrgaHSPU8RF8chdkSJShd48W23E7t&_nc_ohc=sHa5mAJptqEQ7kNvwEkaVNT&_nc_oc=Adpfx_PJvJoGJYSOcrQo2DGvVg0lsqiy9F84XFPq0gd4zwJx7l-f_Mqw3IAyTeiXk-M&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=GdZaIe5TBCfSOD4SW9wI9w&_nc_ss=7b2a8&oh=00_AQGIlWvp7wHGMvWhML_2NSk-AJYhddzd8D5xEPP0_dz8JQ&oe=6A8499A8",
+    skills: ["Brand Guidelines", "Typography Systems", "Marketing Collateral", "Canva"],
+    link: "https://web.facebook.com/share/p/1DTAPW2swm/"
+  },
+  {
+    id: "tsms-usv-poster",
+    title: "TSMS Mapping Insights Poster",
+    category: "graphic-design",
+    client: "TecPhil Surveying and Mapping Services",
+    year: "2025",
+    description: "An educational carousel for TecPhil Surveying and Mapping Services, highlighting the importance of USV for Hydrographic Surveying.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/552081308_122124593271000761_5868440580365490036_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s1080x1080&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_aid=0&_nc_eui2=AeE25g0ejWMNuhiPu1PFGBKOS3aarQ_0vxZLdpqtD_S_FgfPVgIkE7IUGvcFtUYEgP9cRG48lGANn9u3WLkkRV82&_nc_ohc=3rATxOzxZMsQ7kNvwGLIk1H&_nc_oc=Adr7xvPyMEcmX2v9AwGI68fK0zMSCxgqvaCgihLlNswyhj0DFmU1IVQZqlCuXTAhXas&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=0EITIIv4v7aDQ4ruUAI_dA&_nc_ss=7b2a8&oh=00_AQGdJ24X930oj0pAExZBJRRabGewtZUFCXjEwTqjAQqmEg&oe=6A8490D0",
+    skills: ["Brand Guidelines", "Typography Systems", "Marketing Collateral", "Canva"],
+    link: "https://web.facebook.com/share/p/1987uBawuM/"
+  },
+  {
+    id: "rasa-satlab-sl7-poster",
+    title: "RASA Surveying SatLab SL7 GNSS RTK Poster",
+    category: "graphic-design",
+    client: "RASA Surveying",
+    year: "2025",
+    description: "A promotional poster of SatLab SL7 GNSS RTK distributed by RASA Surveying.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/519507021_787333503622758_6585201968618434322_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s1000x1000&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHU4r05KXwW-_b3_La13x0Twyl89U81Lj_DKXz1TzUuP3mjAgZHjlREbA36x00v3Y0bfKraY7iu4ehXB1bg9YV_&_nc_ohc=pmszxsmSmUEQ7kNvwFVmqD5&_nc_oc=AdrLeQfl4Ol_ZC77Zt2ipwKR9yFUIdPZ4Mtnwf1GYfDaQbrtS6pvFJQ1GOdS--zrpXQ&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=1P7i5vcXZK8KXlJO53Ou5w&_nc_ss=7b2a8&oh=00_AQFeYBlj34HERla_0UWASQupaIVQNZVjOIiO4DZpy574Pg&oe=6A846D5A",
+    skills: ["Brand Guidelines", "Typography Systems", "Marketing Collateral", "Adobe Photoshop", "Canva"],
+    link: "https://web.facebook.com/share/p/18fpp4abvp/"
+  },
+  {
+    id: "rasa-30-years-poster",
+    title: "RASA Surveying 30 Years Anniversary Poster",
+    category: "graphic-design",
+    client: "RASA Surveying",
+    year: "2025",
+    description: "A promotional poster for RASA Surveying's 30 years of excellence in surveying and mapping services.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/500231460_747477697608339_6136088464709203079_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s1000x1000&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGyaaoHHizCLtcAQHqxbadu8u7nS4dnMEvy7udLh2cwS2FS32HHESZ6CJ1R63pE-YTdwuC83Xy08ptBCO8CB08C&_nc_ohc=3PCtVrixkEoQ7kNvwFwpJ0x&_nc_oc=AdpK3_n9olmoAJJT9cVlHmxHuqE7WpfawgHyJrfnicNibxfKpgDn-jxJYDOIQuljVd8&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=77dKh_wRJlI_GbToL5Jowg&_nc_ss=7b2a8&oh=00_AQEcue3CVOX-8ZMxg7IS_NncYZklyXWF4OoWmHb6SOFhcg&oe=6A8486C4",
+    skills: ["Brand Guidelines", "Typography Systems", "Marketing Collateral", "Adobe Photoshop", "Canva"],
+    link: "https://web.facebook.com/share/p/19KAn1aEGJ/"
+  },
+  {
+    id: "rasa-award-poster",
+    title: "RASA Surveying Elite PerformanceAward Winning Poster",
+    category: "graphic-design",
+    client: "RASA Surveying",
+    year: "2025",
+    description: "A celebratory poster for RASA Surveying's winning Elite Performance Award from Hi-Target China.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/487190880_704875265201916_5698880384950281951_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s1080x1080&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEPqjo1egyaSW_sHeMuBCJm7AwmQ9MohsnsDCZD0yiGych5wB2-vEc0F4XmoF0EEo-RihE531p-XhXD8C5PPbbC&_nc_ohc=nYBdjeTkBWEQ7kNvwGyEhQS&_nc_oc=AdrBJcyhlBxRehDVojuyXSfyTVfCSsNJlFHjfvXjEhLPkaibQEFiKZRCb2oW-ocuvBM&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=RG9VM5btq5e27j57NWB7hw&_nc_ss=7b2a8&oh=00_AQFvJbV1HWdqtIs9vBjrJi3imv0wzmYITHhA8w9DG6EgoQ&oe=6A849583",
+    skills: ["Brand Guidelines", "Typography Systems", "Marketing Collateral", "Adobe Photoshop", "Canva"],
+    link: "https://web.facebook.com/share/p/197sZ97ukS/"
+  },
+  {
+    id: "rasa-satlab-apus-poster",
+    title: "RASA Surveying Satlab Apus-MX UAV LiDAR Poster",
+    category: "graphic-design",
+    client: "RASA Surveying",
+    year: "2025",
+    description: "A promotional poster for RASA Surveying's Satlab Apus-MX UAV LiDAR technology.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/487383318_707296051626504_278003261455238723_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s1080x1080&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEqQB_eQysa3bRRp-o4LGRWXr1-YjmgU8levX5iOaBTydPwAjMd_1q3KJACqq1dZMj9g5MnzKpq5O-riMFMJMKQ&_nc_ohc=SUKYqNu9KGsQ7kNvwGswq0R&_nc_oc=AdqyTTUk-kHGKjhTb7SfK_JLy6_FWwjryCpGeKOkUkzpYvnuEMNdkCD3KhfBeZw9ePo&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=g8DmBnYnvGRboFK1jhn_xw&_nc_ss=7b2a8&oh=00_AQFp9pHGMRZMFBmMb6UndWrr9iEIwXglwhtvfyiBg9XdOg&oe=6A8483A7",
+    skills: ["Brand Guidelines", "Typography Systems", "Marketing Collateral", "Adobe Photoshop", "Canva"],
+    link: "https://web.facebook.com/rasasurvey/posts/pfbid02tEDwXf371AqjHfnJo3ydXtqn34CKbCBqbY6rHHXGNzaKULW6CRRtcXhWW92SFpLzl"
+  },
+  {
+    id: "au-cl-packaging-poster",
+    title: "C&L Packaging: Seafood Packaging Design Poster",
+    category: "graphic-design",
+    client: "Atomic Ube Media and Consulting Group",
+    year: "2026",
+    description: "A promotional poster of C&L Packaging's innovative seafood packaging.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/714840149_122213718902325771_8420145131514380387_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s1080x1350&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEu33FEBeWE7Z0mNgFbCWav9Z6_xlSJgg_1nr_GVImCD9mlBZNrNCgpRtc4f0QjBueilk-wT54RK1eLMCCXSEHI&_nc_ohc=b2M65BUKE3IQ7kNvwEc4TGA&_nc_oc=AdpOjj7YqQc2sqXyvZwMENJg8DGHzEVEKZmH8ZUgIjfad4um8axZBIMmMjSQbFL2yR0&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=guZEjXxEO_cfuCcOTnCTQQ&_nc_ss=7b2a8&oh=00_AQF4XP8XIRCHTPhbrZYesc2P8gmn4QOh6z9a1XbcGX6AgQ&oe=6A849F72",
+    skills: ["Brand Guidelines", "Typography Systems", "Marketing Collateral", "Adobe Photoshop", "Canva"],
+    link: "https://web.facebook.com/CLInternationalPackagingCorp/posts/pfbid022pmZW4JSSVg79epcH9PBPYJ6nUpJmaNx3ifd5YygHm6zoXioDRX6fDjzUo9YiwBAl"
+  },
+  {
+    id: "au-cl-packaging-options-poster",
+    title: "C&L Packaging: Packaging Solutions Poster",
+    category: "graphic-design",
+    client: "Atomic Ube Media and Consulting Group",
+    year: "2026",
+    description: "A promotional poster of C&L Packaging's innovative packaging solutions.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/710651658_122213720120325771_2861619518310646099_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s1080x1350&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHEJWdsFj5fSsZ3-2lxr2EL9GZOfys45QH0Zk5_KzjlAeeOqtChh2cX-f7vsBSc9t-pcaD2nIsI6DaE5kt0heKv&_nc_ohc=9v1dV7i7rg8Q7kNvwFFNtix&_nc_oc=Ado2Hfg18nMc5pBYhA9FjTUQVf4VRN7-Y3fq3s0EaoecveiSZrap1mjE91SZLZw5cOA&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=PGuAj3gPUJqTbNkWRfiZLQ&_nc_ss=7b2a8&oh=00_AQEi-4BqlxqeVE9-o6UUIaztJnQ0yKsGP1KQO8xOy87_sA&oe=6A8470A5",
+    skills: ["Brand Guidelines", "Typography Systems", "Marketing Collateral", "Adobe Photoshop", "Canva"],
+    link: "https://web.facebook.com/share/p/18xdCUhoGS/"
+  },
+  {
+    id: "au-cl-packaging-options-carousel",
+    title: "C&L Packaging: Packaging Solutions Carousel",
+    category: "graphic-design",
+    client: "Atomic Ube Media and Consulting Group",
+    year: "2026",
+    description: "An educational carousel of C&L Packaging's innovative packaging solutions.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/685103572_122210131436325771_463658687805116645_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s1080x1350&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGBePR34SmO32GQ11QxTG2aK0j9YGiWvOkrSP1gaJa86aNwsojAu0cbANMI-vDWtuWLMKY45Dov9t2V7jqDGfrA&_nc_ohc=0bH1gAKgYRYQ7kNvwG53DOh&_nc_oc=AdqplMLjsfqju7TetLGYjo6dcAlfuHMOZoWvp_vRXJeTQYjwTAZUE3l5yETwq2dYris&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=4s-0T_qRzVdiLfsNALUyTw&_nc_ss=7b2a8&oh=00_AQERpS-IAT0jZLy5XTfXYMnlyQ1OTSx95xFNRd7seGOIZg&oe=6A847C31",
+    skills: ["Brand Guidelines", "Typography Systems", "Marketing Collateral", "Adobe Photoshop", "Canva"],
+    link: "https://web.facebook.com/share/p/1FSxpiuNra/"
+  },
+  {
+    id: "au-cl-packaging-options-carousel",
+    title: "C&L Packaging: Packaging Solutions Carousel",
+    category: "graphic-design",
+    client: "Atomic Ube Media and Consulting Group",
+    year: "2026",
+    description: "An educational carousel of C&L Packaging's innovative packaging solutions.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/685103572_122210131436325771_463658687805116645_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s1080x1350&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGBePR34SmO32GQ11QxTG2aK0j9YGiWvOkrSP1gaJa86aNwsojAu0cbANMI-vDWtuWLMKY45Dov9t2V7jqDGfrA&_nc_ohc=0bH1gAKgYRYQ7kNvwG53DOh&_nc_oc=AdqplMLjsfqju7TetLGYjo6dcAlfuHMOZoWvp_vRXJeTQYjwTAZUE3l5yETwq2dYris&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=4s-0T_qRzVdiLfsNALUyTw&_nc_ss=7b2a8&oh=00_AQERpS-IAT0jZLy5XTfXYMnlyQ1OTSx95xFNRd7seGOIZg&oe=6A847C31",
+    skills: ["Brand Guidelines", "Typography Systems", "Marketing Collateral", "Adobe Photoshop", "Canva"],
+    link: "https://web.facebook.com/share/p/1FSxpiuNra/"
+  },
+
+
+  // Generative AI & Prompting
   {
     id: "flora-biomorph-ai",
     title: "Flora Biomorph: AI-Synthesized Eco-Packaging Concepts",
