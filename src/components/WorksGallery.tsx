@@ -14,7 +14,9 @@ import {
   Layers, 
   Film, 
   Activity,
-  ArrowRight
+  ArrowRight,
+  Sparkles,
+  Share2
 } from 'lucide-react';
 import { PORTFOLIO_WORKS } from '../data';
 import { WorkItem, WorkCategory } from '../types';
@@ -30,6 +32,8 @@ export default function WorksGallery({ onNavigateToCaseStudy }: WorksGalleryProp
 
   const categories: { id: WorkCategory | 'all'; label: string; icon: any }[] = [
     { id: 'all', label: 'All Works', icon: Compass },
+    { id: 'generative-ai', label: 'Generative AI', icon: Sparkles },
+    { id: 'social-media', label: 'Social Media', icon: Share2 },
     { id: 'ui-ux', label: 'UI/UX Product', icon: Layers },
     { id: 'graphic-design', label: 'Graphic Design', icon: Palette },
     { id: 'artwork', label: 'Artworks', icon: Activity },
@@ -51,6 +55,8 @@ export default function WorksGallery({ onNavigateToCaseStudy }: WorksGalleryProp
 
   const selectCategoryName = (id: WorkCategory) => {
     switch (id) {
+      case 'generative-ai': return 'Generative AI Prompting';
+      case 'social-media': return 'Social Media Strategy';
       case 'ui-ux': return 'UI/UX Product';
       case 'graphic-design': return 'Graphic Design';
       case 'artwork': return 'Artworks & 3D';
@@ -61,12 +67,14 @@ export default function WorksGallery({ onNavigateToCaseStudy }: WorksGalleryProp
   };
 
   const getBentoPillColor = (index: number) => {
-    const pillColors = ["bg-pink-100", "bg-purple-100", "bg-cyan-100", "bg-lime-100", "bg-orange-100"];
+    const pillColors = ["bg-pink-100", "bg-yellow-200", "bg-emerald-200", "bg-purple-100", "bg-cyan-100", "bg-lime-100", "bg-orange-100", "bg-rose-100"];
     return pillColors[index % pillColors.length];
   };
 
   const selectCategoryColor = (id: WorkCategory) => {
     switch (id) {
+      case 'generative-ai': return 'text-black bg-yellow-300 border-black';
+      case 'social-media': return 'text-black bg-pink-300 border-black';
       case 'ui-ux': return 'text-black bg-cyan-300 border-black';
       case 'graphic-design': return 'text-black bg-indigo-300 border-black';
       case 'artwork': return 'text-black bg-purple-300 border-black';

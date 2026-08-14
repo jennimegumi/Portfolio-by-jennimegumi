@@ -1,6 +1,6 @@
 {
   "name": "Designer Portfolio",
-  "description": "A highly interactive designer portfolio website showcasing Graphic Design, Artworks, Video editing, UI/UX Design, Logo Branding, and personal case studies with a blog.",
+  "description": "A highly interactive designer portfolio website showcasing Generative AI Prompting, Social Media Management, Graphic Design, Artworks, Video editing, UI/UX Design, Logo Branding, and personal case studies with a blog.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

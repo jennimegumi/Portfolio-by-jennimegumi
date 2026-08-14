@@ -19,9 +19,22 @@ export default function CaseStudies({ selectedId, setSelectedId }: CaseStudiesPr
 
   const selectedStudy = CASE_STUDIES.find(cs => cs.id === selectedId);
 
+  // Return the correct category label
+  const getCategoryLabel = (category: string) => {
+    switch (category) {
+      case 'ui-ux': return 'UI/UX Product Case Study';
+      case 'logo-branding': return 'Logo Branding Case Study';
+      case 'social-media': return 'Social Media & Growth Study';
+      case 'generative-ai': return 'Generative AI Case Study';
+      default: return 'Design Case Study';
+    }
+  };
+
   // Return the correct color scale for the case studies
   const getThemeColor = (category: string) => {
     if (category === 'ui-ux') return { text: 'text-black', bg: 'bg-cyan-300', border: 'border-black' };
+    if (category === 'social-media') return { text: 'text-black', bg: 'bg-pink-300', border: 'border-black' };
+    if (category === 'generative-ai') return { text: 'text-black', bg: 'bg-yellow-300', border: 'border-black' };
     return { text: 'text-black', bg: 'bg-amber-300', border: 'border-black' };
   };
 
@@ -65,7 +78,7 @@ export default function CaseStudies({ selectedId, setSelectedId }: CaseStudiesPr
                       <div className="space-y-4">
                         <div className="flex items-center justify-between font-mono text-[10px] font-bold">
                           <span className={`border-2 px-2 py-0.5 uppercase tracking-wide ${theme.bg} ${theme.border}`}>
-                            {study.category === 'ui-ux' ? 'UI/UX Design' : 'Logo Branding'}
+                            {getCategoryLabel(study.category)}
                           </span>
                           <span className="text-zinc-500">{study.timeline}</span>
                         </div>
@@ -130,7 +143,7 @@ export default function CaseStudies({ selectedId, setSelectedId }: CaseStudiesPr
                   <div className="border-2 border-black bg-yellow-105 p-6 md:p-10 relative overflow-hidden" id="case_study_header_panel">
                     <div className="relative z-10 space-y-6 max-w-4xl">
                       <span className={`border-2 px-3 py-1 font-mono text-xs font-black uppercase tracking-wider ${getThemeColor(selectedStudy.category).bg} ${getThemeColor(selectedStudy.category).border}`}>
-                        {selectedStudy.category === 'ui-ux' ? 'UI/UX Product Case Study' : 'Logo Branding Case Study'}
+                        {getCategoryLabel(selectedStudy.category)}
                       </span>
                       
                       <h1 className="font-display text-3xl font-black tracking-tight text-black md:text-5xl leading-tight">

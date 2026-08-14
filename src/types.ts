@@ -8,7 +8,9 @@ export type WorkCategory =
   | 'artwork' 
   | 'video-edit' 
   | 'ui-ux' 
-  | 'logo-branding';
+  | 'logo-branding'
+  | 'generative-ai'
+  | 'social-media';
 
 export interface WorkItem {
   id: string;

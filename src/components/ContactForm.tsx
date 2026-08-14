@@ -115,6 +115,8 @@ export default function ContactForm() {
 
   const translateServiceKey = (key: string) => {
     switch (key) {
+      case 'generative-ai': return 'Generative AI Prompting';
+      case 'social-media': return 'Social Media Management & Growth';
       case 'ui-ux': return 'UI/UX Product Design';
       case 'graphic-design': return 'Graphic Design';
       case 'artwork': return 'Artworks & 3D Sculpting';
@@ -271,6 +273,8 @@ export default function ContactForm() {
                         className="w-full appearance-none border-2 border-black bg-white py-3 pl-10 pr-4 text-sm text-black outline-none focus:bg-yellow-50 transition-all font-display font-bold"
                         id="form_select_service"
                       >
+                        <option value="generative-ai">Generative AI Prompting & Workflows</option>
+                        <option value="social-media">Social Media Management & Strategy</option>
                         <option value="ui-ux">UI/UX Design Systems</option>
                         <option value="graphic-design">Graphic Design / Print</option>
                         <option value="artwork">3D Abstract Artworks</option>

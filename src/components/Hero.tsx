@@ -9,7 +9,8 @@ import {
   Film, 
   Compass,
   ArrowUpRight,
-  TrendingUp
+  TrendingUp,
+  Share2
 } from 'lucide-react';
 import { DESIGNER_INFO } from '../data';
 
@@ -20,6 +21,12 @@ interface HeroProps {
 export default function Hero({ onNavigate }: HeroProps) {
   // Map icons to categories
   const getIconForCategory = (category: string) => {
+    if (category.includes("Generative") || category.includes("Prompting") || category.includes("AI")) {
+      return <Sparkles className="h-5 w-5 text-black" />;
+    }
+    if (category.includes("Social Media")) {
+      return <Share2 className="h-5 w-5 text-black" />;
+    }
     if (category.includes("UI/UX")) return <Layers className="h-5 w-5 text-black" />;
     if (category.includes("Creative")) return <Palette className="h-5 w-5 text-black" />;
     if (category.includes("Motion")) return <Film className="h-5 w-5 text-black" />;
@@ -27,7 +34,7 @@ export default function Hero({ onNavigate }: HeroProps) {
   };
 
   const getBentoColorForCategory = (index: number) => {
-    const colors = ["bg-amber-100", "bg-orange-100", "bg-sky-100", "bg-purple-100"];
+    const colors = ["bg-amber-100", "bg-emerald-100", "bg-purple-100", "bg-sky-100", "bg-orange-100", "bg-rose-100"];
     return colors[index % colors.length];
   };
 
@@ -286,12 +293,12 @@ export default function Hero({ onNavigate }: HeroProps) {
             id="hero_marquee_banner"
           >
             <div className="flex animate-infinite-scroll whitespace-nowrap space-x-8 font-display text-xs font-black uppercase text-black">
-              <span className="bg-white border border-black px-2 py-0.5 inline-block">★ HUMAN CENTRIC</span>
-              <span>✦ ATOMIC COMPONENT DESIGN SYSTEMS</span>
-              <span className="bg-lime-200 border border-black px-2 py-0.5 inline-block text-black">★ GENERATIVE MOTION ART</span>
+              <span className="bg-white border border-black px-2 py-0.5 inline-block">★ GENERATIVE AI PROMPTING</span>
+              <span>✦ SOCIAL MEDIA MANAGEMENT & STRATEGY</span>
+              <span className="bg-lime-200 border border-black px-2 py-0.5 inline-block text-black">★ ATOMIC UI/UX SYSTEMS</span>
               <span>✦ BRUTALIST BENTO ARCHITECTURE</span>
-              <span className="bg-pink-300 border border-black px-2 py-0.5 inline-block text-black">★ CONVERTING PIXEL PERFECTION</span>
-              <span>✦ WEB & BRAND LANDMARKS</span>
+              <span className="bg-pink-300 border border-black px-2 py-0.5 inline-block text-black">★ 4.8M+ VIRAL REACH</span>
+              <span>✦ BRAND IDENTITY LANDMARKS</span>
             </div>
           </motion.div>
 
@@ -303,14 +310,14 @@ export default function Hero({ onNavigate }: HeroProps) {
           >
             <div>
               <h2 className="font-display text-2xl font-black text-black">
-                Areas of Expertise
+                Areas of Expertise & Skills
               </h2>
               <p className="text-zinc-600 text-sm font-medium">
-                My multidisciplinary approach bridges the gap between atomic visual branding and robust user experience.
+                My multidisciplinary approach bridges the gap between advanced Generative AI workflows, high-growth social media management, and atomic visual systems.
               </p>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {DESIGNER_INFO.skills.map((skillGroup, i) => (
                 <div
                   key={i}

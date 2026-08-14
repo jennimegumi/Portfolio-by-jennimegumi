@@ -7,29 +7,49 @@ import { WorkItem, BlogPost, CaseStudy } from './types';
 
 export const DESIGNER_INFO = {
   name: "Marcus Vane",
-  title: "Principal Designer & Digital Artist",
+  title: "Principal Designer, AI Visual Artist & Social Strategist",
   location: "San Francisco, CA (Available Worldwide)",
-  about: "I am a multi-disciplinary designer specializing in crafting modern visual universes. By blending meticulous UI/UX craft with dynamic branding, expressive art, and rhythm-driven motion design, I help forward-thinking companies build unforgettable digital landmarks. Over the last 8+ years, I have collaborated with series-A startups, global brands, and independent innovators to transform raw ideas into gorgeous, high-converting interactive realities.",
+  about: "I am a multi-disciplinary designer and creative strategist specializing in modern visual universes, advanced Generative AI prompt engineering, and high-impact social media management. By blending meticulous UI/UX craft with dynamic branding, data-driven social growth loops, and rhythm-driven motion design, I help forward-thinking companies build unforgettable digital landmarks and scale engaged online communities.",
   skills: [
-    { category: "UI/UX & Product Design", items: ["Design Systems", "Framer/Figma", "User Research", "Interactive Prototyping", "Information Architecture"] },
-    { category: "Creative Direction & Brand", items: ["Logo Design", "Brand Guidelines", "Visual Identity", "Typography Systems", "Marketing Graphics"] },
-    { category: "Motion & Audio/Video", items: ["After Effects", "Cinematic Color Grading", "Timeline Pacing", "3D Motion Graphics", "Sound Design Mapping"] },
-    { category: "Digital Art & Rendering", items: ["Abstract 3D Artwork", "Generative Art Canvas", "Concept Sketching", "Illustration Grids", "Texture Design"] }
+    { 
+      category: "Generative AI & Prompting", 
+      items: ["Midjourney & FLUX Workflows", "Advanced Prompt Engineering", "ControlNet & LoRA Fine-Tuning", "AI Concept Art & Storyboarding", "Consistent Character Seeding", "Latent Space Style Tuning"] 
+    },
+    { 
+      category: "Social Media Management", 
+      items: ["Omni-Channel Content Strategy", "Viral Hook & Narrative Design", "Instagram & TikTok Growth", "Audience Engagement Analytics", "Brand Voice & Community Building", "Campaign Launch Roadmaps"] 
+    },
+    { 
+      category: "UI/UX & Product Design", 
+      items: ["Design Systems", "Framer/Figma Suite", "User Research & Journey Mapping", "Interactive Prototyping", "Information Architecture"] 
+    },
+    { 
+      category: "Creative Direction & Brand", 
+      items: ["Logo Design & Identity", "Brand Guidelines", "Typography Systems", "Marketing Collateral", "Packaging Direction"] 
+    },
+    { 
+      category: "Motion & Audio/Video", 
+      items: ["After Effects & Premiere", "Cinematic Color Grading", "Timeline Pacing & Sync", "3D Motion Graphics", "Sound Design Mapping"] 
+    },
+    { 
+      category: "Digital Art & 3D Rendering", 
+      items: ["Abstract 3D Artwork", "Generative Art Canvas", "Concept Sketching", "Illustration Grids", "Texture & Shader Design"] 
+    }
   ],
   stats: [
     { label: "Years Experience", value: "8+" },
-    { label: "Completed Projects", value: "140+" },
-    { label: "Global Design Awards", value: "12" },
-    { label: "GitHub Contributions", value: "1.2k+" }
+    { label: "Completed Projects", value: "160+" },
+    { label: "Social Reach Generated", value: "12M+" },
+    { label: "AI Image Prompts Crafted", value: "25k+" }
   ],
   testimonials: [
     {
-      quote: "Marcus completely redefined our visual presence. His work on our branding guidelines and mobile application single-handedly raised our seed round of funding.",
+      quote: "Marcus completely redefined our visual presence and social media footprint. His expertise in Generative AI prompting cut our concept turnaround by 70%, while his social content strategy drove a 300% surge in qualified leads.",
       author: "Elena Rostova",
       role: "CEO & Co-founder, Aura Labs"
     },
     {
-      quote: "A rare designer who understands both technical constraints and high editorial art. The motion promos Marcus edited for us achieved record-breaking engagement.",
+      quote: "A rare designer who understands both technical prompt architectures, high editorial art, and the algorithmic nuances of viral social channels. His launch campaign achieved record-breaking engagement.",
       author: "Julius Vance",
       role: "Creative Director, Syndicate Studio"
     }
@@ -37,6 +57,52 @@ export const DESIGNER_INFO = {
 };
 
 export const PORTFOLIO_WORKS: WorkItem[] = [
+  // Generative AI Prompting & Artworks
+  {
+    id: "synthetica-ai-concepts",
+    title: "Synthetica: Neural Brand Aesthetics & Concept Generation",
+    category: "generative-ai",
+    client: "Studio Synthetica",
+    year: "2026",
+    description: "A high-concept visual campaign engineered using advanced Midjourney v6, FLUX, and Stable Diffusion prompt architectures. Features precise token weighting, seed locking, custom LoRA styling, and prompt-driven cinematic lighting.",
+    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=900&q=80",
+    skills: ["Prompt Engineering", "Midjourney v6", "ControlNet", "Seed Parameter Locking", "Latent Space Exploration"],
+    link: "https://midjourney.com"
+  },
+  {
+    id: "flora-biomorph-ai",
+    title: "Flora Biomorph: AI-Synthesized Eco-Packaging Concepts",
+    category: "generative-ai",
+    client: "BioSphere Lab",
+    year: "2025",
+    description: "Hyper-realistic prompt-crafted botanical models blending microscopic fungal mycelium structures with luxury glass vessel concepts, generated through meticulous iterative prompt chaining and inpainting.",
+    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80",
+    skills: ["Negative Prompt Tuning", "DALL-E 3 & FLUX", "Inpainting / Outpainting", "Photorealistic Textures"]
+  },
+
+  // Social Media Management & Content Strategy
+  {
+    id: "omni-channel-growth-surge",
+    title: "Kroma Energy: 4.8M Social Media Growth & Brand Playbook",
+    category: "social-media",
+    client: "Kroma Beverage Co.",
+    year: "2026",
+    description: "Comprehensive social media strategy and daily content execution across Instagram, TikTok, and LinkedIn. Implemented high-retention visual hooks, daily community engagement loops, and carousel masterclasses driving 4.8M organic impressions.",
+    image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=900&q=80",
+    skills: ["Social Content Strategy", "TikTok / Reels Hooks", "Analytics & Retargeting", "Community Management", "Visual Grid Planning"],
+    caseStudyId: "social-growth-campaign"
+  },
+  {
+    id: "lumina-brand-activation",
+    title: "Lumina Wearables: Organic Social Launch & Creator Activation",
+    category: "social-media",
+    client: "Lumina Tech",
+    year: "2025",
+    description: "30-day social media launch rollout integrating teaser motion cutdowns, founder story threads on LinkedIn/X, interactive polls, and user-generated content curation that sold out the initial batch in 72 hours.",
+    image: "https://images.unsplash.com/photo-1516251193007-45ef944ab0c6?auto=format&fit=crop&w=900&q=80",
+    skills: ["Launch Roadmaps", "Influencer Collabs", "Copywriting & Tone", "Social Growth Hacks"]
+  },
+
   // UI/UX Design
   {
     id: "pulse-fintech",
@@ -117,7 +183,7 @@ export const PORTFOLIO_WORKS: WorkItem[] = [
     description: "Dynamic visual promo cut containing rhythmic editing, custom speed ramps, chromatic aberration flashes, and deep synthesis sound effects.",
     image: "https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&w=900&q=80",
     skills: ["Premiere Pro", "Rhythmic Syncing", "Color Grading C-Log", "Kinetic Captions"],
-    videoUrl: "https://www.w3schools.com/html/mov_bbb.mp4" // Real testing video clip path
+    videoUrl: "https://www.w3schools.com/html/mov_bbb.mp4"
   },
   {
     id: "future-cities",
@@ -128,7 +194,7 @@ export const PORTFOLIO_WORKS: WorkItem[] = [
     description: "A gorgeous 4K high-density city drone montage featuring subtle visual effects enhancements, camera stabilization mapping, and a cinematic atmospheric score.",
     image: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=900&q=80",
     skills: ["After Effects", "Drone Stabilization", "Atmospheric LUTs", "VFX Compositing"],
-    videoUrl: "https://www.w3schools.com/html/movie.mp4" // Real testing clip
+    videoUrl: "https://www.w3schools.com/html/movie.mp4"
   },
 
   // Logo & Branding
@@ -157,56 +223,105 @@ export const PORTFOLIO_WORKS: WorkItem[] = [
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    id: "prompt-engineering-mastery",
+    title: "Prompt Engineering as a Visual Medium: Unlocking Latent Space Precision",
+    excerpt: "Beyond basic text prompts: how token weighting, seed locking, camera parameter syntax, and ControlNet references bridge the gap between AI generation and production design.",
+    date: "June 10, 2026",
+    readTime: "6 min read",
+    category: "Generative AI & Tech",
+    tags: ["Prompt Engineering", "Midjourney", "AI Design", "Workflow Automation"],
+    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80",
+    content: [
+      "Generative AI prompting is no longer about throwing random adjectives at a chatbox and hoping for luck. In professional design workflows, prompt engineering is an exact science of linguistic syntax, latent space token weighting, and camera parameter control.",
+      "By structuring prompts into strict hierarchical tiers—Subject, Context, Medium, Lighting Physics, Camera Optics, and Parameter Flags (--ar, --stylize, --no, --cw)—designers can achieve pixel-perfect visual consistency across entire product campaigns.",
+      "Combining text prompts with image-to-image ControlNet depth maps and LoRA fine-tuning enables brand characters, product silhouettes, and proprietary color palettes to remain faithfully rendered in any imagined environment.",
+      "The highest form of modern creative direction is human-AI symbiosis: using generative prompt suites for rapid 100x concept ideation, and human craftsmanship for final typographic hierarchy, spatial balancing, and emotional resonance."
+    ]
+  },
+  {
+    id: "social-media-retention",
+    title: "The 3-Second Hook: Structuring High-Converting Social Media Visuals",
+    excerpt: "Analyzing the anatomy of viral design carousels, algorithmic engagement signals, and converting passive scrollers into passionate brand advocates.",
+    date: "May 08, 2026",
+    readTime: "5 min read",
+    category: "Social Media Strategy",
+    tags: ["Social Growth", "Content Strategy", "Visual Hooks", "Community Building"],
+    image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=600&q=80",
+    content: [
+      "In social media management, the first 3 seconds of a video or the first slide of an Instagram carousel determine 90% of total engagement. Algorithms reward retention rate and shares far higher than passive likes.",
+      "To build a high-performing visual hook, combine an unexpected counter-intuitive visual contrast with bold, single-line headline typography. Avoid long introductory fluff; deliver value in the first frame.",
+      "A successful social media management system relies on clear pillar architectures: 40% Education & Actionable Insight, 30% Proof & Case Studies, 20% Cultural / Behind-the-Scenes Personality, and 10% Direct Conversion Offers.",
+      "Pairing consistency in posting schedules with genuine community interaction in the comments section fosters loyal brand advocates who amplify organic reach with zero paid ad spend."
+    ]
+  },
+  {
     id: "typography-grids",
     title: "The Silent Grid: How Typography Guides Eyes on Minimal Portfolios",
     excerpt: "An in-depth look at visual hierarchy, modern lettering contrast, and why intentional negative space beats visual clutter every single time.",
-    date: "May 24, 2026",
+    date: "April 24, 2026",
     readTime: "5 min read",
     category: "Typography & Layouts",
     tags: ["Grid systems", "Minimalism", "Aesthetics", "Font pairings"],
     image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80",
     content: [
-      "In design, quietness is a superpower. When developers or designers attempt to build personal landing pages or GitHub portfolios, they often feel an urge to fill every pixels of empty width with animated charts, logs, or secondary buttons. Truly exceptional interfaces, however, breathe through structural negative space.",
-      "The layout grid is the skeletal framework of readability. By aligning primary headings to dynamic asymmetric columns, you form a clear scanning order for potential clients, hiring directors, and design partners. Space is not passive; it acts as an active visual delimiter that chunks information cleanly.",
-      "When styling headings, choose display fonts that convey your design character (like Space Grotesk) and pair them with humble, practical geometric sans-serif fonts for the text (such as Inter). Keep your font scale tightly grouped: four sizes are usually enough to cover everything from caption texts to display blocks. Consistency establishes cognitive trust.",
-      "Remember that readability is about more than just font choices. It is the perfect balance of font size, line-height, character spacing (tracking), and container margins. If a reader can scan your story without squinting or feeling visual cognitive load, they will absorb, register, and remember your work."
+      "In design, quietness is a superpower. When developers or designers attempt to build personal landing pages or GitHub portfolios, they often feel an urge to fill every pixel of empty width with animated charts or secondary buttons. Truly exceptional interfaces breathe through structural negative space.",
+      "The layout grid is the skeletal framework of readability. By aligning primary headings to dynamic asymmetric columns, you form a clear scanning order for potential clients, hiring directors, and design partners.",
+      "When styling headings, choose display fonts that convey your design character (like Space Grotesk) and pair them with humble, practical geometric sans-serif fonts for the text (such as Inter). Keep your font scale tightly grouped: four sizes are usually enough to cover everything from caption texts to display blocks.",
+      "Readability is the perfect balance of font size, line-height, character spacing (tracking), and container margins. If a reader can scan your story without cognitive fatigue, they will absorb, register, and remember your work."
     ]
   },
   {
     id: "video-rhythm-cuts",
     title: "Pacing and Rhythm: Post-Production Secrets for Modern Video Directors",
     excerpt: "How to edit cinematic videos, master transition pacing, synchronize custom soundtracks, and maintain tension throughout a high-energy corporate showcase.",
-    date: "April 18, 2026",
+    date: "March 18, 2026",
     readTime: "7 min read",
     category: "Video & Motion",
     tags: ["Video Editing", "Rhythm Sync", "Color Grading", "Film Pacing"],
     image: "https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&w=600&q=80",
     content: [
-      "Most video editors approach cuts as simple logical dividers between video clips. Rich, memorable editing treats cuts as musical beats. Synchronizing timeline markers directly with audio transients or quiet frequencies sets up a rhythmic dialogue that keeps the viewer's eyes glued to the screen.",
-      "To prevent your flow from becoming monotonous, practice the principle of rhythmic contrast. Group rapid, high-intensity cuts and fast speed-ramps inside active transition points, then contrast them with long, steady, static panoramic frames immediately following. These momentary pauses give the brain a fraction of a second to register the narrative gravity.",
-      "Color grading is your emotional anchor. C-Log footage often feels flat and gray on extraction, but applying a stylized, low-saturation lut combined with deep, warm midtones establishes an instant 'indie cinema' mood. Never let automatic presets govern your timeline; color is light, and light is story.",
-      "Lastly, don't overlook sound effects (SFX) layering. The visual track of a car racing by only reaches half its potential without a custom sub-bass riser, low metallic sweeps, or ambient atmospheric hums embedded behind. Designing multi-layered acoustic soundscapes completes the immersive environment."
-    ]
-  },
-  {
-    id: "framer-motion-physics",
-    title: "Bringing UI/UX alive using Framer Motion and Spring Physics",
-    excerpt: "Ditch boring linear transitions. Learn how to map spring mass, stiffness, and damping to create smooth, natural elastic interfaces in React.",
-    date: "March 02, 2026",
-    readTime: "4 min read",
-    category: "Interactive Tech",
-    tags: ["Framer Motion", "Animation Physics", "React UI", "Dynamic Tabs"],
-    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80",
-    content: [
-      "Standard digital interfaces rely heavily on linear transitions—fading elements in exactly 200ms with a straightforward ease-in curve. In the physical world, elements never accelerate or decelerate instantly. Dynamic, lifelike animations should match real-world physical forces.",
-      "Spring-based physics engines calculate physical motion dynamically using physical properties like mass, stiffness, and damping. Mass governs how heavy an object feels, stiffness controls how tightly it recoils, and damping determines how fast the oscillation settles down to a flat line.",
-      "In Framer Motion, assigning a bounce parameter of 0.25 to custom layout-changing navigation tabs allows smooth slide-overs. When clicking menu links, rather than simply hiding and revealing sections, use full layout animations (layoutId) to smoothly glide the selection border from the previous button to the next.",
-      "Use subtle delay staggering (e.g. 0.05s increments) on children lists to let elements rise elegantly as a single wave rather than dumping all cards on screen simultaneously. Polishing micro-behaviors indicates outstanding structural design."
+      "Most video editors approach cuts as simple logical dividers between video clips. Rich, memorable editing treats cuts as musical beats. Synchronizing timeline markers directly with audio transients sets up a rhythmic dialogue that keeps the viewer's eyes glued to the screen.",
+      "To prevent your flow from becoming monotonous, practice the principle of rhythmic contrast. Group rapid, high-intensity cuts inside active transition points, then contrast them with long, steady, panoramic frames immediately following.",
+      "Color grading is your emotional anchor. Applying a stylized, low-saturation LUT combined with deep, warm midtones establishes an instant cinema mood. Color is light, and light is story.",
+      "Lastly, don't overlook sound effects (SFX) layering. The visual track of a subject in motion only reaches its full potential when supported by custom sub-bass risers, metallic sweeps, and ambient atmospheric textures."
     ]
   }
 ];
 
 export const CASE_STUDIES: CaseStudy[] = [
+  {
+    id: "social-growth-campaign",
+    category: "social-media",
+    title: "Kroma Energy: 4.8M Reach Social Media Overhaul & AI-Augmented Visual Engine",
+    client: "Kroma Beverage Co.",
+    timeline: "3 Months (Spring 2026)",
+    role: "Head of Social Strategy & Visual Direction",
+    challenge: "Kroma Beverage needed to launch their zero-sugar organic energy drink into a fiercely competitive market dominated by legacy brands with multi-million dollar ad budgets. They lacked an established social footprint and needed an authentic, high-velocity organic content strategy to build an engaged community from scratch.",
+    solution: "We engineered an omni-channel social media growth engine combining Generative AI-prompted concept art with high-retention short-form video hooks on TikTok and Instagram Reels. We established a daily publishing cadence, interactive community polling, and a distinct rebellious brand voice.",
+    process: [
+      {
+        title: "1. Audience Persona & Algorithmic Blueprinting",
+        description: "Mapped Gen-Z and millennial fitness audiences. Identified top-performing content archetypes: rapid-cut recipe hacks, clean desk aesthetic routines, and relatable founder storytelling.",
+      },
+      {
+        title: "2. Generative AI Prompting for Rapid Visual Ideation",
+        description: "Built proprietary Midjourney v6 and Stable Diffusion prompt templates to generate 50+ hyper-stylized 3D can mockups in fantastical environments every week for social teaser carousels.",
+      },
+      {
+        title: "3. Short-Form Video & Visual Hook Architecture",
+        description: "Scripted and edited 45 high-tempo Reels and TikToks utilizing the '3-Second Visual Hook' formula, custom sound effects, and kinetic typography overlays.",
+      },
+      {
+        title: "4. Community Engagement Loops & Creator Seeding",
+        description: "Managed real-time comment interactions, engaged in viral brand banter, and coordinated micro-influencer product seeding that generated over 300+ organic user videos.",
+      }
+    ],
+    results: [
+      { metric: "Total Organic Impressions", value: "4.8M+", description: "Reached across TikTok, Instagram, and X without paid advertising." },
+      { metric: "Follower Growth", value: "+320%", description: "Grew from 3,200 to 48,000+ highly active community members." },
+      { metric: "DTC Launch Conversion", value: "3.4x", description: "First batch of 20,000 cases sold out within 14 days of campaign rollout." }
+    ]
+  },
   {
     id: "aura-skincare",
     category: "logo-branding",
