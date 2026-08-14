@@ -59,12 +59,12 @@ export const DESIGNER_INFO = {
 export const PORTFOLIO_WORKS: WorkItem[] = [
   // Generative AI Prompting & Artworks
   {
-    id: "reks-klook-posters",
-    title: "Klook Promotional Posters",
+    id: "reks-rf-klook-poster",
+    title: "Roller Fever Klook Promotional Poster",
     category: "logo-branding",
     client: "REKS Amusement Com, Inc.",
     year: "2025",
-    description: "A series of posters for the launch of Klook as official ticket vendor of their brands.",
+    description: "A promotional poster for the launch of Klook as official ticket vendor of Roller Fever.",
     image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/476806416_473696595815075_223410523812333655_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1937&ctp=s2048x1937&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeH0hG4o9y5XZ18yaKLoDKPt-ekObcx9cTD56Q5tzH1xMMTpcSO6uzL3lLezjK_VtpDjkktaEpSy815hCvWmxWWd&_nc_ohc=kTKApbh3m8cQ7kNvwERuNzj&_nc_oc=AdqdfQUyY81PYHpaAk5RfjMoJvSIgmDjMcORQ7Pr0m7z-XKgVSLNBB_m5LxBLAKdF54&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=5dy8ltHLeYgGwJv8511zeg&_nc_ss=7b2a8&oh=00_AQF67_gHIoiULJpWpMQERsmKZ43AH5IBKWvn3OInK2HvDw&oe=6A847016",
     skills: ["Brand Guidelines", "Typography Systems", "Marketing Collateral"],
     link: "https://web.facebook.com/photo.php?fbid=453354657849269&type=3"
