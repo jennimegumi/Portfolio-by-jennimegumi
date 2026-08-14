@@ -6,7 +6,7 @@
 import { WorkItem, BlogPost, CaseStudy } from './types';
 
 export const DESIGNER_INFO = {
-  name: "Jenny Grace Apo",
+  name: "jennimegumi",
   title: "Multimedia & Social Media Specialist",
   location: "Quezon City, Philippines",
   about: "I am a multi-disciplinary designer and creative strategist from the Philippines, driven by a deep passion for the fascinating connection of creativity and technology. I enjoy bringing ideas to life through engaging multimedia experiences that connect, resonate, and inspire. Beyond design, you’ll also find me streaming games and sharing gameplay highlights across various social media platforms.",
@@ -375,7 +375,7 @@ export const PORTFOLIO_WORKS: WorkItem[] = [
     client: "Atomic Ube Media and Consulting Group",
     year: "2026",
     description: "Hyper-realistic generative AI poster for Imperial House of Furniture, showcasing the furniture's aesthetic and product features using Google Gemini",
-    image: "https://instagram.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/698784018_1364764012340451_7154990945565771165_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=MzkwODkyMzY4NjE0ODc2MzYwNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=FluXqdc4N_UQ7kNvwHLKh1D&_nc_oc=AdrOuS2TJm7GJvDBW7Ppeo4yL0egVVSQhMGoo0z0qmttxiyr9nfnJEapia-BFPlSchs&_nc_ad=z-m&_nc_cid=5917&_nc_zt=23&_nc_ht=instagram.fmnl44-1.fna&_nc_gid=d4kk9p87YpiwH0ldOTNFuA&_nc_ss=7a22e&oh=00_AQG5PbtIxxXnic8T0dRNB9FeHkXhNRKLvwrp6wj2NAPzGg&oe=6A84BBD1",
+    image: "https://instagram.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/746807342_1521494979989312_86648400550246514_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ig_cache_key=Mzk0MDk5NDgwMzc5NzQyNTc3NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=DIlt2z9ZONQQ7kNvwGwd9MG&_nc_oc=AdplUGcR7fc-eBcixFee_a1KBXR_sh_PAAkqOQGgaVCXDZa_HB1B5VdGueSi6B1TX5Q&_nc_ad=z-m&_nc_cid=5917&_nc_zt=23&_nc_ht=instagram.fmnl44-1.fna&_nc_gid=IZjEHdJCZrAjS5JN8WRJPg&_nc_ss=7a22e&oh=00_AQFN7rqjihS_hEqRg8vU7yQC1A2_w3tSUiJs7jmxhMQb3w&oe=6A84DBBF",
     skills: ["Google Gemini", "Reference Image Integration", "Photorealistic Textures"],
     link: "https://www.instagram.com/p/DaxOeTOAX5u/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
   },
@@ -441,24 +441,64 @@ export const PORTFOLIO_WORKS: WorkItem[] = [
 
   // Artworks
   {
-    id: "chroma-waves",
-    title: "Chroma Waves: Abstract 3D Sculpt Series",
+    id: "golden-lady",
+    title: "Golden Lady",
     category: "artwork",
-    client: "Self-initiated NFT Campaign",
-    year: "2026",
-    description: "A series of digital abstract models exploring ambient liquid chrome refraction, soft holographic materials, and deep light-bending shadows.",
-    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=900&q=80",
-    skills: ["Blender 3D", "Octane Render", "Holographic Shaders", "Digital Composition"]
+    client: "Self-initiated Artwork",
+    year: "2018",
+    description: "A portrait of a woman with golden halo and wings, symbolizing divinity and grace. The artwork is created using digital painting techniques and showcases a blend of realism and fantasy.",
+    image: "https://drive.google.com/file/d/10KujvGOP0g43rsND6Ya9GiC9y3usASxc/view?usp=sharing",
+    skills: ["Adobe Photoshop", "Digital Composition"]
   },
   {
-    id: "cyber-distortion",
-    title: "Cybernetic Distortion & Synthetic Glitch Space",
+    id: "ben-and-ben-wallpaper-art",
+    title: "Ben&Ben: Wallpaper Art",
     category: "artwork",
-    client: "Neo-Tkyo Exhibition",
-    year: "2025",
-    description: "Vector exploration of retro-futuristic circuitry grids, neon-split layouts, and generative grid particles simulating sensory cyber environments.",
-    image: "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?auto=format&fit=crop&w=900&q=80",
-    skills: ["Generative Art", "Vector Drafting", "Neon Post-processing", "Glitch Texturing"]
+    client: "Self-initiated Artwork",
+    year: "2020",
+    description: "A digital wallpaper art of the music group Ben&Ben, featuring anime-style pen strokes and vibrant colors of the theme of their album 'Limasawa Street'.",
+    image: "https://drive.google.com/file/d/1K_rAb-pHNeXR5NBK_2pdlRGkTri-4K6n/view?usp=drive_link",
+    skills: ["Adobe Photoshop", "Autodesk Sketchbook", "Digital Composition"]
+  },
+  {
+    id: "afterglow-sky",
+    title: "Afterglow Sky Digital Art",
+    category: "artwork",
+    client: "Self-initiated Artwork",
+    year: "2022",
+    description: "A 10-minute fast sketch digital artwork capturing the serene beauty of the sky during the afterglow period, showcasing a blend of warm and dreamy tones to create a tranquil atmosphere.",
+    image: "https://drive.google.com/file/d/1RprvMm1qAwusg2xu08cVDAjS3s_t091b/view?usp=drive_link",
+    skills: ["Clip Studio Paint", "Digital Composition"]
+  },
+  {
+    id: "taylor-swift-lover-fan-art",
+    title: "Taylor Swift Lover Fan Art",
+    category: "artwork",
+    client: "Self-initiated Artwork",
+    year: "2020",
+    description: "A fan art of Taylor Swift's 'Lover' concept photo, created using digital painting techniques.",
+    image: "https://drive.google.com/file/d/1Ji5czBB62NurbvHyoTW20NKzNQ-OwCWW/view?usp=drive_link",
+    skills: ["Autodesk Sketchbook", "Digital Composition"]
+  },
+  {
+    id: "brendon-urie-fan-art",
+    title: "Brendon Urie Fan Art",
+    category: "artwork",
+    client: "Self-initiated Artwork",
+    year: "2019",
+    description: "A fan art of Brendon Urie using combined charcoal and graphite pencil.",
+    image: "https://drive.google.com/file/d/1rjmwWfbjwZ1sQlDMxvgqqsW1gBZqUcht/view?usp=drive_link",
+    skills: ["Portrait Sketching", "Traditional Art"]
+  },
+  {
+    id: "leigh-and-alexa-portrait",
+    title: "Leigh and Alexa Portrait",
+    category: "artwork",
+    client: "Self-initiated Artwork",
+    year: "2019",
+    description: "A portrait of Leigh and Alexa using graphite pencil on A4 vellum board.",
+    image: "https://drive.google.com/file/d/13U9eJNpBhB7I995hRx45EM3m50JUfi9R/view?usp=drive_link",
+    skills: ["Portrait Sketching", "Traditional Art"]
   },
 
   // Video Editing
