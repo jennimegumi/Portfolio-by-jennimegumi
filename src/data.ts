@@ -301,28 +301,94 @@ export const PORTFOLIO_WORKS: WorkItem[] = [
     link: "https://web.facebook.com/share/p/1FSxpiuNra/"
   },
   {
-    id: "au-cl-packaging-options-carousel",
-    title: "C&L Packaging: Packaging Solutions Carousel",
+    id: "au-ihof-brands-carousel",
+    title: "Imperial House of Furniture: Featured Brands Carousel",
     category: "graphic-design",
     client: "Atomic Ube Media and Consulting Group",
     year: "2026",
-    description: "An educational carousel of C&L Packaging's innovative packaging solutions.",
-    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/685103572_122210131436325771_463658687805116645_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s1080x1350&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGBePR34SmO32GQ11QxTG2aK0j9YGiWvOkrSP1gaJa86aNwsojAu0cbANMI-vDWtuWLMKY45Dov9t2V7jqDGfrA&_nc_ohc=0bH1gAKgYRYQ7kNvwG53DOh&_nc_oc=AdqplMLjsfqju7TetLGYjo6dcAlfuHMOZoWvp_vRXJeTQYjwTAZUE3l5yETwq2dYris&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=4s-0T_qRzVdiLfsNALUyTw&_nc_ss=7b2a8&oh=00_AQERpS-IAT0jZLy5XTfXYMnlyQ1OTSx95xFNRd7seGOIZg&oe=6A847C31",
+    description: "A carousel of featured international brands of Imperial House of Furniture.",
+    image: "https://instagram.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/676653400_1446119850860159_7170257358253917909_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ig_cache_key=Mzg4MDgzOTM3MTcyNDc3NjY1Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=_j008n3Ja6cQ7kNvwF3XVEQ&_nc_oc=AdpgKLxiSqSBQUgvwUewa_LrgfAuC3zMrNd_4qFNMQj4cmVPXxCsZ2Gbgrzpy1NyAlY&_nc_ad=z-m&_nc_cid=5917&_nc_zt=23&_nc_ht=instagram.fmnl44-1.fna&_nc_gid=eUozFjHH204fwW8gWWdoCw&_nc_ss=7a22e&oh=00_AQFq3DN9bz5TLkW_oyqr7tQmdBlUnYkmshsJQsLVRyka2g&oe=6A84D458",
     skills: ["Brand Guidelines", "Typography Systems", "Marketing Collateral", "Adobe Photoshop", "Canva"],
-    link: "https://web.facebook.com/share/p/1FSxpiuNra/"
+    link: "https://www.instagram.com/p/DXbgt3yAa4b/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ=="
   },
-
+  {
+    id: "au-ihof-texture-guide-carousel",
+    title: "Imperial House of Furniture: Texture Guide Carousel",
+    category: "graphic-design",
+    client: "Atomic Ube Media and Consulting Group",
+    year: "2026",
+    description: "An informative carousel showcasing the diverse texture options available for the furnitures at the Imperial House of Furniture.",
+    image: "https://instagram.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/746824103_1526551559483654_5883834635262538261_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ig_cache_key=Mzk1ODM4OTY2MjE3NTMyMDcxMQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=cQU9XRHZ1lgQ7kNvwFji4je&_nc_oc=Adp9MIPqilSoW8nH6GpXgUDYTATOCvbBTlcsoZ-CNeTepOMwoE51KfwQRRYM71SXF44&_nc_ad=z-m&_nc_cid=5917&_nc_zt=23&_nc_ht=instagram.fmnl44-1.fna&_nc_gid=M3olqpTJmiVit3bExDzhCQ&_nc_ss=7a22e&oh=00_AQH67feniNDPkPzA25DrTROm6KUbiZebIF8wRw89UCSeug&oe=6A84C0F9",
+    skills: ["Brand Guidelines", "Typography Systems", "Marketing Collateral", "Adobe Photoshop", "Canva"],
+    link: "https://www.instagram.com/p/DbvBnLuCfH8/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    id: "au-techwiz-new-arrivals-poster",
+    title: "TechWiz PH: New Arrivals Poster",
+    category: "graphic-design",
+    client: "Atomic Ube Media and Consulting Group",
+    year: "2026",
+    description: "A bento-style poster showcasing the new arrivals of TechWiz PH, highlighting the latest tech gadgets and accessories.",
+    image: "https://instagram.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/656558237_1480289590556677_7443039961330016170_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ig_cache_key=Mzg2MjAyNDg0MzQ2NjYwNDg4Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=o7_ZW-5wktgQ7kNvwEVWSi5&_nc_oc=AdpK-SU4K44ftkmsKlzDayDWLJNkGdgPAQyLiyAwCYF4ks1WKbSrVlPRMLxOOU4rBBI&_nc_ad=z-m&_nc_cid=5917&_nc_zt=23&_nc_ht=instagram.fmnl44-1.fna&_nc_gid=AmrSIlxPqdZwMIXBoO4szg&_nc_ss=7a22e&oh=00_AQGH2Z1wikE2XfJ2_FS7VU5My6GhULGbM37zeplHEFeusQ&oe=6A84CE19",
+    skills: ["Brand Guidelines", "Typography Systems", "Marketing Collateral", "Adobe Photoshop", "Canva"],
+    link: "https://www.instagram.com/p/DWYqyUUjyMz/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    id: "au-techwiz-travel-essentials-poster",
+    title: "TechWiz PH: Travel Essentials Poster",
+    category: "graphic-design",
+    client: "Atomic Ube Media and Consulting Group",
+    year: "2026",
+    description: "A travel guide poster highlighting essential tech gadgets and accessories for travelers, curated by TechWiz PH.",
+    image: "https://instagram.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/668701132_1495446509040985_6217094720554919607_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ig_cache_key=Mzg3NTA3MDU5NzEyMjU4MjU5Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=hazShrYwMbUQ7kNvwHKAcF6&_nc_oc=AdrDcVnFQKuvg9rT7T1J7NdjRzlPAqkuLgxfTd0oaKQ4ACJ1mkprGHS_dQ-CoVM7JmE&_nc_ad=z-m&_nc_cid=5917&_nc_zt=23&_nc_ht=instagram.fmnl44-1.fna&_nc_gid=AmrSIlxPqdZwMIXBoO4szg&_nc_ss=7a22e&oh=00_AQGm99tKRqysAY87fBFgepVnRJSV0mhums5gpnHcFQQotw&oe=6A84C4EC",
+    skills: ["Brand Guidelines", "Typography Systems", "Marketing Collateral", "Adobe Photoshop", "Canva"],
+    link: "https://www.instagram.com/p/DXHBC90jajd/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    id: "au-hiring-poster",
+    title: "Atomic Ube: Hiring Poster",
+    category: "graphic-design",
+    client: "Atomic Ube Media and Consulting Group",
+    year: "2026",
+    description: "A hiring poster for Atomic Ube Media and Consulting Group, showcasing opportunities for tech professionals.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/688725710_1381516337330816_7998289234611914422_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s1080x1350&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHZTtDoXVi8nvDcUpR7vjRslwFIFtkBdkyXAUgW2QF2TA1BgVeDSEDFWY6XOp9AgLgzUpBR5Z2kvUgf7XX2t5Nf&_nc_ohc=o2aYEAr_2ccQ7kNvwFmmDRy&_nc_oc=AdoLuQL3sXeoKhpcfiz78aVyXELfvFfUeBq7rO4T63OPhvku3kLWe3rs3XvN3vHqslI&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=vZktqy0KY9gBnhkFH8SznA&_nc_ss=7b2a8&oh=00_AQHoI5kfk3BInplJrJYS9zcDiHnCH-abBUt7GpbfusMnbw&oe=6A84C505",
+    skills: ["Brand Guidelines", "Typography Systems", "Marketing Collateral", "Adobe Photoshop", "Canva"],
+    link: "https://web.facebook.com/share/p/1Dc2JYqoun/"
+  },
 
   // Generative AI & Prompting
   {
-    id: "flora-biomorph-ai",
-    title: "Flora Biomorph: AI-Synthesized Eco-Packaging Concepts",
+    id: "au-veraco-jewelry-carousel-guide",
+    title: "Veraco Jewelry: Gold Cleaning Guide",
     category: "generative-ai",
-    client: "BioSphere Lab",
-    year: "2025",
-    description: "Hyper-realistic prompt-crafted botanical models blending microscopic fungal mycelium structures with luxury glass vessel concepts, generated through meticulous iterative prompt chaining and inpainting.",
-    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80",
-    skills: ["Negative Prompt Tuning", "DALL-E 3 & FLUX", "Inpainting / Outpainting", "Photorealistic Textures"]
+    client: "Atomic Ube Media and Consulting Group",
+    year: "2026",
+    description: "Hyper-realistic generative AI carousel guide for Veraco Jewelry, demonstrating the proper cleaning and maintenance of gold jewelry using Google Gemini and ChatGPT",
+    image: "https://instagram.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/698784018_1364764012340451_7154990945565771165_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=MzkwODkyMzY4NjE0ODc2MzYwNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=FluXqdc4N_UQ7kNvwHLKh1D&_nc_oc=AdrOuS2TJm7GJvDBW7Ppeo4yL0egVVSQhMGoo0z0qmttxiyr9nfnJEapia-BFPlSchs&_nc_ad=z-m&_nc_cid=5917&_nc_zt=23&_nc_ht=instagram.fmnl44-1.fna&_nc_gid=d4kk9p87YpiwH0ldOTNFuA&_nc_ss=7a22e&oh=00_AQG5PbtIxxXnic8T0dRNB9FeHkXhNRKLvwrp6wj2NAPzGg&oe=6A84BBD1",
+    skills: ["Google Gemini", "ChatGPT", "Reference Image Integration", "Photorealistic Textures"],
+    link: "https://www.instagram.com/p/DY_SWZLgSJc/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    id: "au-ihof-showroom-poster",
+    title: "Imperial House of Furniture: Showroom Poster",
+    category: "generative-ai",
+    client: "Atomic Ube Media and Consulting Group",
+    year: "2026",
+    description: "Hyper-realistic generative AI poster for Imperial House of Furniture, showcasing the furniture's aesthetic and product features using Google Gemini",
+    image: "https://instagram.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/698784018_1364764012340451_7154990945565771165_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=MzkwODkyMzY4NjE0ODc2MzYwNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=FluXqdc4N_UQ7kNvwHLKh1D&_nc_oc=AdrOuS2TJm7GJvDBW7Ppeo4yL0egVVSQhMGoo0z0qmttxiyr9nfnJEapia-BFPlSchs&_nc_ad=z-m&_nc_cid=5917&_nc_zt=23&_nc_ht=instagram.fmnl44-1.fna&_nc_gid=d4kk9p87YpiwH0ldOTNFuA&_nc_ss=7a22e&oh=00_AQG5PbtIxxXnic8T0dRNB9FeHkXhNRKLvwrp6wj2NAPzGg&oe=6A84BBD1",
+    skills: ["Google Gemini", "Reference Image Integration", "Photorealistic Textures"],
+    link: "https://www.instagram.com/p/DaxOeTOAX5u/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    id: "au-ihof-sofa-styling-guide",
+    title: "Imperial House of Furniture: Sofa Styling Guide",
+    category: "generative-ai",
+    client: "Atomic Ube Media and Consulting Group",
+    year: "2026",
+    description: "Generative AI carousel guide for Imperial House of Furniture, demonstrating various sofa styling options and interior design inspirations using Google Gemini.",
+    image: "https://instagram.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/749096498_1526548586150618_8166907564190312122_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ig_cache_key=Mzk1MzMxNjA0MzU5MDI5MTU5OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=Yx1c11ZLSk0Q7kNvwGgREwS&_nc_oc=AdqBYFcUctZNR0ToGyamQez-cbLqZyyhqlW9fOqNHANNz13J8S1OE7rBfAoeVXkhpPI&_nc_ad=z-m&_nc_cid=5917&_nc_zt=23&_nc_ht=instagram.fmnl44-1.fna&_nc_gid=59B92WRAL2D0L_cV_36YXg&_nc_ss=7a22e&oh=00_AQGuaLiDUcE34HnZw-ZrU2UZu5tQM6yF0mPJJOXVzEwHug&oe=6A84BC7F",
+    skills: ["Google Gemini", "Reference Image Integration", "Photorealistic Textures"],
+    link: "https://www.instagram.com/p/DbdAALXDX0Z/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
   },
 
   // Social Media Management & Content Strategy
@@ -371,29 +437,6 @@ export const PORTFOLIO_WORKS: WorkItem[] = [
     image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=900&q=80",
     skills: ["iOS Guidelines", "Haptic Mapping", "Neumorphism Details", "Micro-Interactions"],
     link: "https://figma.com"
-  },
-
-  // Graphic Design
-  {
-    id: "brutalist-posters",
-    title: "Kinesis Brutalist Experimental Posters",
-    category: "graphic-design",
-    client: "Kinesis Art Fair",
-    year: "2025",
-    description: "A physical poster campaign utilizing ultra-high contrast Swiss typography, distressed photo textures, editorial grid systems, and offset duotones.",
-    image: "https://images.unsplash.com/photo-1561070791-26c113006238?auto=format&fit=crop&w=900&q=80",
-    skills: ["InDesign Grids", "Poster Compositing", "Halftone Textures", "Swiss Typography"],
-    link: "https://behance.net"
-  },
-  {
-    id: "nomad-editorial",
-    title: "The Nomad: Travel & Wanderlust Magazine",
-    category: "graphic-design",
-    client: "Nomad Press",
-    year: "2026",
-    description: "Print and tablet magazine layouts combining asymmetric headings, ample whitespace breathing room, full-bleed scenic photography borders, and elegant serif typography.",
-    image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=900&q=80",
-    skills: ["Editorial Direction", "Print Production", "Grid Alignment", "Type Hierarchy"]
   },
 
   // Artworks
