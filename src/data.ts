@@ -33,16 +33,21 @@ export const DESIGNER_INFO = {
     },
     { 
       category: "Traditional & Digital Art", 
-      items: ["Realistic Portrait", "Fan Art"] 
+      items: ["Realistic Portrait", "Fan Art", "Anime Style", "Twitch Emotes"] 
     }
   ],
   stats: [
-    { label: "Years Experience", value: "4+" },
-    { label: "Completed Projects", value: "160+" },
-    { label: "Social Reach Generated", value: "12M+" },
-    { label: "AI Image Prompts Crafted", value: "25k+" }
+    { label: "Industry Experience", value: "4+" },
+    { label: "Asset Delivered", value: "700+" },
+    { label: "Brand and Client Collaborations", value: "25+" },
+    { label: "Workflow Efficiency (Fast Turnaround)", value: "40%" }
   ],
   testimonials: [
+    {
+      quote: "Jenny is a true visual artist—a creative force with mastery in digital and traditional media. Her work reflects a deep understanding of visual communication in graphic design, illustration, branding, or layout. She brings a fresh, original perspective to every project, making her creative output visually compelling and strategic.",
+      author: "Jasper Briones",
+      role: "Marketing Manager, Havitas Developments Corporation "
+    },
     {
       quote: "Jenny is a true visual artist—a creative force with mastery in digital and traditional media. Her work reflects a deep understanding of visual communication in graphic design, illustration, branding, or layout. She brings a fresh, original perspective to every project, making her creative output visually compelling and strategic.",
       author: "Jasper Briones",
@@ -54,15 +59,15 @@ export const DESIGNER_INFO = {
 export const PORTFOLIO_WORKS: WorkItem[] = [
   // Generative AI Prompting & Artworks
   {
-    id: "synthetica-ai-concepts",
-    title: "Synthetica: Neural Brand Aesthetics & Concept Generation",
-    category: "generative-ai",
-    client: "Studio Synthetica",
-    year: "2026",
-    description: "A high-concept visual campaign engineered using advanced Midjourney v6, FLUX, and Stable Diffusion prompt architectures. Features precise token weighting, seed locking, custom LoRA styling, and prompt-driven cinematic lighting.",
-    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=900&q=80",
-    skills: ["Prompt Engineering", "Midjourney v6", "ControlNet", "Seed Parameter Locking", "Latent Space Exploration"],
-    link: "https://midjourney.com"
+    id: "reks-klook-posters",
+    title: "Klook Promotional Posters",
+    category: "logo-branding",
+    client: "REKS Amusement Com, Inc.",
+    year: "2025",
+    description: "A series of posters for the launch of Klook as official ticket vendor of their brands.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/476806416_473696595815075_223410523812333655_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1937&ctp=s2048x1937&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeH0hG4o9y5XZ18yaKLoDKPt-ekObcx9cTD56Q5tzH1xMMTpcSO6uzL3lLezjK_VtpDjkktaEpSy815hCvWmxWWd&_nc_ohc=kTKApbh3m8cQ7kNvwERuNzj&_nc_oc=AdqdfQUyY81PYHpaAk5RfjMoJvSIgmDjMcORQ7Pr0m7z-XKgVSLNBB_m5LxBLAKdF54&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=5dy8ltHLeYgGwJv8511zeg&_nc_ss=7b2a8&oh=00_AQF67_gHIoiULJpWpMQERsmKZ43AH5IBKWvn3OInK2HvDw&oe=6A847016",
+    skills: ["Brand Guidelines", "Typography Systems", "Marketing Collateral"],
+    link: "https://web.facebook.com/photo.php?fbid=453354657849269&type=3"
   },
   {
     id: "flora-biomorph-ai",
