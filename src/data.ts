@@ -66,8 +66,30 @@ export const PORTFOLIO_WORKS: WorkItem[] = [
     year: "2025",
     description: "A promotional poster for the launch of Klook as official ticket vendor of Roller Fever.",
     image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/476806416_473696595815075_223410523812333655_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1937&ctp=s2048x1937&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeH0hG4o9y5XZ18yaKLoDKPt-ekObcx9cTD56Q5tzH1xMMTpcSO6uzL3lLezjK_VtpDjkktaEpSy815hCvWmxWWd&_nc_ohc=kTKApbh3m8cQ7kNvwERuNzj&_nc_oc=AdqdfQUyY81PYHpaAk5RfjMoJvSIgmDjMcORQ7Pr0m7z-XKgVSLNBB_m5LxBLAKdF54&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=5dy8ltHLeYgGwJv8511zeg&_nc_ss=7b2a8&oh=00_AQF67_gHIoiULJpWpMQERsmKZ43AH5IBKWvn3OInK2HvDw&oe=6A847016",
-    skills: ["Brand Guidelines", "Typography Systems", "Marketing Collateral"],
+    skills: ["Brand Guidelines", "Typography Systems", "Marketing Collateral", "Adobe Photoshop", "Canva"],
     link: "https://web.facebook.com/photo.php?fbid=453354657849269&type=3"
+  },
+  {
+    id: "reks-rf-promo-poster",
+    title: "Roller Fever Valentine's Day Engagement Poster",
+    category: "logo-branding",
+    client: "REKS Amusement Com, Inc.",
+    year: "2025",
+    description: "An engagement poster for the Valentine's Day event with the social media audience as the brand's potential customers.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/480190328_475119922339409_8822486576770225208_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s1080x1350&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEn7WreiQBhhg1xzFpR6GHEpfkTLTrXfy6l-RMtOtd_LiEBR2OG9896WrDT2MedtO1EbwREqrTzzCFqm919bo1z&_nc_ohc=OzFAoCjVzfcQ7kNvwEhL6Gz&_nc_oc=AdowroQqxgEMDY3JygP3ivFi2RgfKbdaBjmQHtHQjMCD4ij-Qku609G6zb1yV1uHMpQ&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=7CDT_rOmtAA8ca7H1QIOgA&_nc_ss=7b2a8&oh=00_AQHjwOpmESrm-GUakuRMiztxRd5q_n0OOkN01qMMkS8iCw&oe=6A847302",
+    skills: ["Brand Guidelines", "Typography Systems", "Marketing Collateral", "Canva"],
+    link: "https://web.facebook.com/photo.php?fbid=475119919006076&type=3"
+  },
+  {
+    id: "reks-da-klook-poster",
+    title: "Dino Adventure Klook Promotional Poster",
+    category: "logo-branding",
+    client: "REKS Amusement Com, Inc.",
+    year: "2025",
+    description: "A promotional poster for the launch of Klook as official ticket vendor of Dino Adventure.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/490192770_1138729894932475_691045979955773316_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s1080x1080&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFwnWWgdOoKrmCAvtjboajL7qcttDe5bPnupy20N7ls-Qx116iwbo3DQ_8ldzH7UO1Us2GWgNhrcSXH4eOhZMfa&_nc_ohc=lSgtq2fWwycQ7kNvwHu_mTt&_nc_oc=AdqnMYIYxy9wAwovQUIujy_3n2VOVyNTblm5Id18kCgDwdl6yUpju6s6Hsbp5sUrxyM&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=Hz7HskJc2vx0aWe_aOCqyg&_nc_ss=7b2a8&oh=00_AQFJ3vyIldQbyrvxb3jNKyAeS346qaR3c_TOMFpzsgRqcQ&oe=6A849282",
+    skills: ["Brand Guidelines", "Typography Systems", "Marketing Collateral", "Canva"],
+    link: "https://web.facebook.com/photo.php?fbid=1070778375060961&type=3"
   },
   {
     id: "flora-biomorph-ai",
