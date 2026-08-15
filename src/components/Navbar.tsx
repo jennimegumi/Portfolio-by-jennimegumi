@@ -71,7 +71,7 @@ export default function Navbar({ activeTab, setActiveTab }: NavbarProps) {
         {/* Action Button */}
         <div className="hidden md:flex items-center space-x-3" id="desktop_social_links">
           <a
-            href="https://drive.google.com/file/d/1FmamQmUGDx4CBlOrkHIv3A_mlMeEfxXW/view"
+            href="https://drive.google.com/file/d/1L4AlaevNgmmcDsUdO-Om1j3cCAvrkC7R/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 border-2 border-black bg-black px-4 py-2 font-display text-xs font-bold text-white transition-all bento-shadow-hover hover:bg-zinc-800"
