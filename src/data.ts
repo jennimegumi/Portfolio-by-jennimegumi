@@ -9,7 +9,7 @@ export const DESIGNER_INFO = {
   name: "jennimegumi",
   title: "Multimedia & Social Media Specialist",
   location: "Quezon City, Philippines",
-  about: "I am a multi-disciplinary designer and creative strategist from the Philippines, driven by a deep passion for the fascinating connection of creativity and technology. I enjoy bringing ideas to life through engaging multimedia experiences that connect, resonate, and inspire. Beyond design, you’ll also find me streaming games and sharing gameplay highlights across various social media platforms.",
+  about: " (Jenny Grace Apo), I am a multi-disciplinary designer and creative strategist from the Philippines, driven by a deep passion for the fascinating connection of creativity and technology. I enjoy bringing ideas to life through engaging multimedia experiences that connect, resonate, and inspire. Beyond design, you’ll also find me streaming games and sharing gameplay highlights across various social media platforms.",
   skills: [
     { 
       category: "Generative AI & Prompting", 
