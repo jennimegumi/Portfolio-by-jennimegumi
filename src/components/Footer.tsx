@@ -17,7 +17,7 @@ export default function Footer({ onNavigate }: FooterProps) {
             <div className="flex items-center space-x-2">
               <span className="font-display text-lg font-black text-black">{DESIGNER_INFO.name}</span>
               <span className="border border-black bg-emerald-200 px-2 py-0.5 font-mono text-[9px] uppercase font-black text-black">
-                PRO ACTIVE
+                Jenny Grace Apo
               </span>
             </div>
             <p className="text-zinc-700 text-xs font-semibold max-w-sm">
