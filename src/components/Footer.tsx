@@ -21,7 +21,7 @@ export default function Footer({ onNavigate }: FooterProps) {
               </span>
             </div>
             <p className="text-zinc-700 text-xs font-semibold max-w-sm">
-              Design & motion director specialized in crafting high-end digital branding packages and custom responsive portfolios.
+              Mutlimedia and Social Media Specialist, passionate about creating engaging experiences that connect, resonate, and inspire. Let's collaborate and bring your ideas to life!
             </p>
           </div>
 
@@ -50,16 +50,16 @@ export default function Footer({ onNavigate }: FooterProps) {
         <div className="mt-10 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6 text-zinc-505 font-mono text-[11px] font-bold">
           
           <div className="space-y-1">
-            <span>© {new Date().getFullYear()} {DESIGNER_INFO.name}. All rights reserved under local studio copyright.</span>
-            <span className="block text-[9px] text-zinc-500 uppercase">
+            <span>© {new Date().getFullYear()} {DESIGNER_INFO.name}. All rights reserved.</span>
+            {/*<span className="block text-[9px] text-zinc-500 uppercase">
               PRODUCED IN CLOUD RUN CONTEXT / GITHUB PAGES PARADIGM
-            </span>
+            </span>*/}
           </div>
 
           {/* Social Platform Links */}
           <div className="flex items-center space-x-4">
             <a 
-              href="https://github.com" 
+              href="https://github.com/jennimegumi" 
               target="_blank" 
               rel="noreferrer" 
               className="border-2 border-black bg-white p-2 text-black hover:bg-yellow-300 bento-shadow-hover transition-all"
@@ -68,7 +68,7 @@ export default function Footer({ onNavigate }: FooterProps) {
               <Github className="h-4 w-4" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/jennimegumi/" 
               target="_blank" 
               rel="noreferrer" 
               className="border-2 border-black bg-white p-2 text-black hover:bg-yellow-300 bento-shadow-hover transition-all"

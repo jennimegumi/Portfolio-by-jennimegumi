@@ -165,21 +165,21 @@ export default function ContactForm() {
                 <div className="flex flex-col gap-1 p-3.5 border border-black bg-white">
                   <span className="text-zinc-500 text-[9px] font-extrabold uppercase tracking-widest">EMAIL INBOX</span>
                   <a href="mailto:marcus@vane.design" className="text-black hover:text-indigo-600 text-sm font-extrabold">
-                    marcus@vane.design
+                    jennygraceapo@gmail.com
                   </a>
                 </div>
 
                 <div className="flex flex-col gap-1 p-3.5 border border-black bg-white">
-                  <span className="text-zinc-500 text-[9px] font-extrabold uppercase tracking-widest">DRIBBBLE / BEHANCE</span>
-                  <a href="https://dribbble.com" className="text-black hover:text-indigo-600 text-sm font-extrabold">
-                    dribbble.com/marcusvane
+                  <span className="text-zinc-500 text-[9px] font-extrabold uppercase tracking-widest">BEHANCE</span>
+                  <a href="https://behance.net" className="text-black hover:text-indigo-600 text-sm font-extrabold">
+                    behance.net/jennimegumi
                   </a>
                 </div>
 
                 <div className="flex flex-col gap-1 p-3.5 border border-black bg-white">
                   <span className="text-zinc-500 text-[9px] font-extrabold uppercase tracking-widest">GITHUB ARCHIVE</span>
                   <a href="https://github.com" className="text-black hover:text-emerald-600 text-sm font-extrabold">
-                    github.com/marcus-vane
+                    github.com/jennimegumi
                   </a>
                 </div>
               </div>
