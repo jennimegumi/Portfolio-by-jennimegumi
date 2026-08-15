@@ -37,7 +37,7 @@ export const DESIGNER_INFO = {
     }
   ],
   stats: [
-    { label: "Industry Experience", value: "4+" },
+    { label: "Years in Industry", value: "4+" },
     { label: "Asset Delivered", value: "700+" },
     { label: "Brand and Client Collaborations", value: "25+" },
     { label: "Workflow Efficiency (Fast Turnaround)", value: "40%" }
@@ -393,29 +393,19 @@ export const PORTFOLIO_WORKS: WorkItem[] = [
 
   // Social Media Management & Content Strategy
   {
-    id: "omni-channel-growth-surge",
-    title: "Kroma Energy: 4.8M Social Media Growth & Brand Playbook",
+    id: "tecphil-socmed-case-study",
+    title: "Tecphil: Social Media Management & Content Strategy",
     category: "social-media",
-    client: "Kroma Beverage Co.",
-    year: "2026",
-    description: "Comprehensive social media strategy and daily content execution across Instagram, TikTok, and LinkedIn. Implemented high-retention visual hooks, daily community engagement loops, and carousel masterclasses driving 4.8M organic impressions.",
-    image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=900&q=80",
-    skills: ["Social Content Strategy", "TikTok / Reels Hooks", "Analytics & Retargeting", "Community Management", "Visual Grid Planning"],
-    caseStudyId: "social-growth-campaign"
-  },
-  {
-    id: "lumina-brand-activation",
-    title: "Lumina Wearables: Organic Social Launch & Creator Activation",
-    category: "social-media",
-    client: "Lumina Tech",
+    client: "TecPhil Geosolutions Co.",
     year: "2025",
-    description: "30-day social media launch rollout integrating teaser motion cutdowns, founder story threads on LinkedIn/X, interactive polls, and user-generated content curation that sold out the initial batch in 72 hours.",
-    image: "https://images.unsplash.com/photo-1516251193007-45ef944ab0c6?auto=format&fit=crop&w=900&q=80",
-    skills: ["Launch Roadmaps", "Influencer Collabs", "Copywriting & Tone", "Social Growth Hacks"]
+    description: "Comprehensive social media strategy and daily content execution across relevant platforms.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t39.30808-6/548405626_1328239202647670_5121934897177403968_n.jpg?stp=dst-jpg_tt6&cstp=mx851x315&ctp=s851x315&_nc_cat=103&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeFXgIDTP6PZsYgNZwJQkEESLAhLI-bX6dQsCEsj5tfp1LGd0Z3rwMxgx06UE_rWNaGpAAasm8Zxe16C7gR_a_9a&_nc_ohc=skz0ZnVJcmEQ7kNvwGxQmTZ&_nc_oc=AdrROU1cZdfAkjSbMx3oY0WLeISRoUf8YOLWHti5zAvw8RqDZIo69iPbdWWLJlJq9xE&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=n3HzQQxwaLg4bp1md6UhqA&_nc_ss=7b2a8&oh=00_AQGRP71MB3CU4pP2bsyk2ZKcPkuhoIzMuTi5E3pdBB49qg&oe=6A86BD5C",
+    skills: ["Social Media Content Strategy", "Engagement Tactics", "Analytics & Retargeting", "Community Management", "Visual Grid Planning"],
+    caseStudyId: "tecphil-socmed-posts"
   },
 
   // UI/UX Design
-  {
+  /*{
     id: "pulse-fintech",
     title: "Pulse: Crypto Assets Dashboard & App",
     category: "ui-ux",
@@ -437,7 +427,7 @@ export const PORTFOLIO_WORKS: WorkItem[] = [
     image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=900&q=80",
     skills: ["iOS Guidelines", "Haptic Mapping", "Neumorphism Details", "Micro-Interactions"],
     link: "https://figma.com"
-  },
+  }, */ 
 
   // Artworks
   {
@@ -447,7 +437,7 @@ export const PORTFOLIO_WORKS: WorkItem[] = [
     client: "Self-initiated Artwork",
     year: "2018",
     description: "A portrait of a woman with golden halo and wings, symbolizing divinity and grace. The artwork is created using digital painting techniques and showcases a blend of realism and fantasy.",
-    image: "https://drive.google.com/file/d/10KujvGOP0g43rsND6Ya9GiC9y3usASxc/view?usp=sharing",
+    image: "https://i.ibb.co/N2TnwxXW/75492509-1211345135718863-7993286643001851904-n.jpg",
     skills: ["Adobe Photoshop", "Digital Composition"]
   },
   {
@@ -457,7 +447,7 @@ export const PORTFOLIO_WORKS: WorkItem[] = [
     client: "Self-initiated Artwork",
     year: "2020",
     description: "A digital wallpaper art of the music group Ben&Ben, featuring anime-style pen strokes and vibrant colors of the theme of their album 'Limasawa Street'.",
-    image: "https://drive.google.com/file/d/1K_rAb-pHNeXR5NBK_2pdlRGkTri-4K6n/view?usp=drive_link",
+    image: "https://i.ibb.co/M58Qgm9s/Ben-Ben.png",
     skills: ["Adobe Photoshop", "Autodesk Sketchbook", "Digital Composition"]
   },
   {
@@ -467,7 +457,7 @@ export const PORTFOLIO_WORKS: WorkItem[] = [
     client: "Self-initiated Artwork",
     year: "2022",
     description: "A 10-minute fast sketch digital artwork capturing the serene beauty of the sky during the afterglow period, showcasing a blend of warm and dreamy tones to create a tranquil atmosphere.",
-    image: "https://drive.google.com/file/d/1RprvMm1qAwusg2xu08cVDAjS3s_t091b/view?usp=drive_link",
+    image: "https://i.ibb.co/r2MfgYRp/280459659-1896983327155037-6082691992108633879-n.jpg",
     skills: ["Clip Studio Paint", "Digital Composition"]
   },
   {
@@ -477,7 +467,7 @@ export const PORTFOLIO_WORKS: WorkItem[] = [
     client: "Self-initiated Artwork",
     year: "2020",
     description: "A fan art of Taylor Swift's 'Lover' concept photo, created using digital painting techniques.",
-    image: "https://drive.google.com/file/d/1Ji5czBB62NurbvHyoTW20NKzNQ-OwCWW/view?usp=drive_link",
+    image: "https://i.ibb.co/LzCLXCWc/80310940-1235887406597969-8692886826395893760-n.jpg",
     skills: ["Autodesk Sketchbook", "Digital Composition"]
   },
   {
@@ -487,7 +477,7 @@ export const PORTFOLIO_WORKS: WorkItem[] = [
     client: "Self-initiated Artwork",
     year: "2019",
     description: "A fan art of Brendon Urie using combined charcoal and graphite pencil.",
-    image: "https://drive.google.com/file/d/1rjmwWfbjwZ1sQlDMxvgqqsW1gBZqUcht/view?usp=drive_link",
+    image: "https://i.ibb.co/7Jqs2tgC/78661611-1231279490392094-3486424970790174720-n.jpg",
     skills: ["Portrait Sketching", "Traditional Art"]
   },
   {
@@ -497,56 +487,190 @@ export const PORTFOLIO_WORKS: WorkItem[] = [
     client: "Self-initiated Artwork",
     year: "2019",
     description: "A portrait of Leigh and Alexa using graphite pencil on A4 vellum board.",
-    image: "https://drive.google.com/file/d/13U9eJNpBhB7I995hRx45EM3m50JUfi9R/view?usp=drive_link",
+    image: "https://i.ibb.co/d0BDB9Rb/82081015-1253405111512865-7758955864442011648-n.jpg",
     skills: ["Portrait Sketching", "Traditional Art"]
   },
 
   // Video Editing
   {
-    id: "synthetic-runway",
-    title: "Synthetic Runway: Fashion Film Cut",
+    id: "au-zeo-reel-1",
+    title: "Zeotimber: Material Textures & Finishes",
     category: "video-edit",
-    client: "Veridian Apparel",
+    client: "Atomic Ube Media and Consulting Group",
     year: "2026",
-    description: "Dynamic visual promo cut containing rhythmic editing, custom speed ramps, chromatic aberration flashes, and deep synthesis sound effects.",
-    image: "https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&w=900&q=80",
-    skills: ["Premiere Pro", "Rhythmic Syncing", "Color Grading C-Log", "Kinetic Captions"],
-    videoUrl: "https://www.w3schools.com/html/mov_bbb.mp4"
+    description: "Explanation of Zeotimber's material textures and finishes, showcasing the unique qualities of their products through a visually engaging video reel.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t15.5256-10/679122371_1648649109707962_7828262047038811686_n.jpg?stp=c0.5000x0.5000f_dst-webp_e15_p268x490_q70_tt1_u&efg=eyJ1cmxnZW4iOiJ1cmxnZW5fZnJvbV91cmwifQ&_nc_eui2=AeHkgf1Q2AnLFNBHY5qmTH3BbxsXnaoYFdxvGxedqhgV3OCXEATr4-6ye07RPRb1W-CUsfhBbxmE9lXTKTXRwGMk&_nc_cid=5917&_nc_ad=z-m&_nc_rml=0&_nc_ht=scontent.fmnl44-1.fna&_nc_cat=106&_nc_ohc=YI0wPGm-wxAQ7kNvwGQbz2c&_nc_gid=oQO2GlxnwhSsb3IVZvK_hQ&ccb=1-7&_nc_sid=4ffc6f&oh=00_AQEbIRgvldEx1naZMYTHucQhJieU2QEH_sK2NZv6SoyJ6A&oe=6A86A92A&_nc_eh=2%2Ccd19a46e35b3f3c0c06ebefcadff41da%2CAW0SYPp-ECgyfGMf1ZXzHjOwPClRfXs814YkmYygth9R9RF70FFmUJxWLC4-8Ydq6Fc",
+    skills: ["CapCut", "Engaging Video Format", "Educational Content", "Visual Storytelling"],
+    videoUrl: "https://web.facebook.com/share/r/1cTXvDfnxS/"
   },
   {
-    id: "future-cities",
-    title: "Future Cities: Cinematic Drone Retrospective",
+    id: "au-zeo-reel-2",
+    title: "Zeotimber: Outdoor WPC Advantages",
     category: "video-edit",
-    client: "Omni Media Corp",
+    client: "Atomic Ube Media and Consulting Group",
+    year: "2026",
+    description: "Educational video reel highlighting the advantages of Zeotimber's outdoor WPC products, emphasizing durability, aesthetics, and environmental benefits.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t15.5256-10/768999915_27691415767147242_6846533181401841647_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=103&ccb=1-7&_nc_sid=d2b52d&_nc_eui2=AeHdAOTavGsfpBHxE0F3AYWwpPgD2k6PxjSk-APaTo_GNBPhvSnOqP8k4ylP3Zoy1p23j3kp6ettWWzdH4PxkQAo&_nc_ohc=_22xJpyDDnoQ7kNvwHu5DBp&_nc_oc=AdrP3uf-VUacdrtFmAnLCZr-s9pO_jwQOAA4itsArjn4zgo3Z6R0ymtsGIqNxS7KxCE&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=HSngLqeJkuxOHk9YOGOJEg&_nc_ss=7b2a8&oh=00_AQEKzOMXuX6XApP62BXXQ_R5RzUmQ9pLdsYmwpBinU4E4g&oe=6A86A556",
+    skills: ["CapCut", "Engaging Video Format", "Educational Content", "Visual Storytelling"],
+    videoUrl: "https://web.facebook.com/reel/1290847814114238"
+  },
+  {
+    id: "au-it-reel-1",
+    title: "IT Luggage: Circulator Luggage Bag",
+    category: "video-edit",
+    client: "Atomic Ube Media and Consulting Group",
+    year: "2026",
+    description: "A fast-paced video reel showcasing the features and benefits of IT Luggage's circulator luggage bag, synchronized with a dynamic soundtrack.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t15.5256-10/715405181_1825457248828042_4512795546136913173_n.jpg?stp=c0.5000x0.5000f_dst-webp_e15_p288x530_q70_tt1_u&efg=eyJ1cmxnZW4iOiJ1cmxnZW5fZnJvbV91cmwifQ&_nc_eui2=AeE-SKoMiJYRN38ePiVNfsZgtNsgfhIXhL202yB-EheEvftxDzsf7mEJAxAftCgHA6mnO_CuFnKqbdxGhCYIpmu9&_nc_cid=5917&_nc_ad=z-m&_nc_rml=0&_nc_ht=scontent.fmnl44-1.fna&_nc_cat=104&_nc_ohc=iixDd3AwPkEQ7kNvwE4EsPk&_nc_gid=b8JMbLNriJiNAE5H-uNsDA&ccb=1-7&_nc_sid=4ffc6f&oh=00_AQHU0ps0C9tuSrDCz9DDZ-FhC4qrZoynfpS3Lv-INZJlwA&oe=6A869C27&_nc_eh=2%2Ccd19a46e35b3f3c0c06ebefcadff41da%2CAW1xuEPbmtcpIeAjOwefixy_0Au5xl4VmBULdD1Khr1DjFohxc3ETqCPSjo8mItCryQ",
+    skills: ["Adobe Premiere Pro", "Fast-Paced", "Trending Music", "Product Showcase"],
+    videoUrl: "https://web.facebook.com/reel/1031665752875043"
+  },
+  {
+    id: "rasa-reel-1",
+    title: "RASA Surveying: RSI at GeoConnect Asia 2025",
+    category: "video-edit",
+    client: "RASA Surveying",
     year: "2025",
-    description: "A gorgeous 4K high-density city drone montage featuring subtle visual effects enhancements, camera stabilization mapping, and a cinematic atmospheric score.",
-    image: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=900&q=80",
-    skills: ["After Effects", "Drone Stabilization", "Atmospheric LUTs", "VFX Compositing"],
-    videoUrl: "https://www.w3schools.com/html/movie.mp4"
+    description: "A documentary-style video reel capturing RASA Surveying's participation at GeoConnect Asia 2025, highlighting their innovative surveying solutions and industry presence.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t15.5256-10/491680056_1980295609165096_8957058515404015560_n.jpg?stp=dst-webp_e15_q70_s890x1585_tt1_u&efg=eyJ1cmxnZW4iOiJ1cmxnZW5fZnJvbV91cmwifQ&_nc_eui2=AeGCFhn1AL5iSUfC0u3OkZpfNMaPpr0PP580xo-mvQ8_n8E0tpYyNWld5WA4oViDqb1pv5q7D6CyEW4iXhQtja45&_nc_cid=5917&_nc_ad=z-m&_nc_rml=0&_nc_ht=scontent.fmnl44-1.fna&_nc_cat=108&_nc_ohc=jpubuoTDQMsQ7kNvwHZJgcV&_nc_gid=Y59ljhASfv3ik84cAhLnQw&ccb=1-7&_nc_sid=5fad0e&oh=00_AQHeNYoEO_ZcfklUaQMzbzX7ipwk_fqzK0fgPJbsuEkK8g&oe=6A86D1D2&_nc_eh=2%2Ccd19a46e35b3f3c0c06ebefcadff41da%2CAW2YwDbOwKz7UnBdo_r1NF6GxWusNXeb44C87LiM40SAOrivOp1wqtuQ4qr4_FIZu-g",
+    skills: ["Adobe Premiere Pro", "Company Profile", "Event Coverage", "Industry Showcase"],
+    videoUrl: "https://www.facebook.com/share/v/1Dwgr57GBf/"
+  },
+  {
+    id: "rasa-reel-2",
+    title: "RASA Surveying: Surveying is an Art",
+    category: "video-edit",
+    client: "RASA Surveying",
+    year: "2025",
+    description: "A combined animated and live-action video showcasing the artistry and precision of surveying, emphasizing the company's expertise and innovative approach in the field.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t15.5256-10/485094878_2007036283153049_730561998846584244_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=d2b52d&_nc_eui2=AeGOBWlWjpPUc2oSEzwzJPaLSqAMxGVzeuRKoAzEZXN65Jh_EVJLqB8sBinnFx1qnoaShNb1DsXbu4KOsQvFH7_V&_nc_ohc=WG8_tuFe3o0Q7kNvwEMYJOY&_nc_oc=Adqkw2NBCk8kX-2lZQqOHYrQbjghOXPpH2-OS4EWwL44oBX94R1IP8j1fZoQbx2HaCs&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=2nk4jXCy_p_LZjjh47AU6w&_nc_ss=7b2a8&oh=00_AQE7vO7LRAe8Fj0sIphCZZbCned7ZaqEIIic18iNYkiFnw&oe=6A86C7E5",
+    skills: ["Adobe Premiere Pro", "Adobe After Effects", "2D Motion Graphics", "Contemporary Animation Style", "Visual Storytelling"],
+    videoUrl: "https://web.facebook.com/reel/3946377522245036"
+  },
+  {
+    id: "rasa-reel-3",
+    title: "RASA Surveying: Partnership with UP Department of Geodetic Engineering",
+    category: "video-edit",
+    client: "RASA Surveying",
+    year: "2025",
+    description: "A video reel highlighting RASA Surveying's partnership with the University of the Philippines Department of Geodetic Engineering, documenting the donation of equipment for educational initiatives.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t15.5256-10/495711082_704066065537769_7723274179128526302_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=103&ccb=1-7&_nc_sid=5fad0e&_nc_eui2=AeGWAvKzhc_6dvOw7uSYpHmzlpmZli7313-WmZmWLvfXf1VpSdU2k8t_wUMr09PM1zB_-oPhHWn3wM8QcC0fGFh3&_nc_ohc=E_C3vB07w4oQ7kNvwH__JZn&_nc_oc=Adqq2_KeVPlFup1dRfvye7Jhcc5kL4-ILMfNH3ow8bA8yFbBB5tKPYIcsX4IDM9b1Ds&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=i8j649ZnY3lemTRhGuoAeQ&_nc_ss=7b2a8&oh=00_AQEXtnLxOg1VPE7X5VUYEQHpi_Z9wCagZu4EO8ZAngnDMQ&oe=6A86B425",
+    skills: ["Adobe Premiere Pro", "2D Motion Graphics", "Contemporary Animation Style", "Visual Storytelling", "Video Production"],
+    videoUrl: "https://web.facebook.com/reel/1093171262620765"
+  },
+  {
+    id: "rasa-reel-4",
+    title: "RASA Surveying: Hands-on Exposure Training of Bathymetric Surveying for the UP and SLU Interns",
+    category: "video-edit",
+    client: "RASA Surveying",
+    year: "2025",
+    description: "A video reel documenting the hands-on exposure training for bathymetric surveying conducted by RASA Surveying for interns from the University of the Philippines and Saint Louis University, showcasing practical learning experiences.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t15.5256-10/515931542_1075160551384512_5365581923802775693_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=101&ccb=1-7&_nc_sid=d2b52d&_nc_eui2=AeElQFVipLEbcyDKlG8WxasAmWfBbEGxlACZZ8FsQbGUAGYz0DXWmx1N-e1OtrVl57CPc-PYGS6RJ4adKib8R-u4&_nc_ohc=W3hz6SGDBM8Q7kNvwHE2eNQ&_nc_oc=Adot5j_c1biXToKxxecWKf8Q2arccDGLF3LSatG7KRljkNUvfG-8MsayuJFGMIrYzpo&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=j65ZP9XOXc072ITkTgNUsg&_nc_ss=7b2a8&oh=00_AQFNNsCkaxn5w-p-ag1oYY6LIrav_YOduL6rDK6VsufFqQ&oe=6A86B222",
+    skills: ["Adobe Premiere Pro", "Short Documentary", "Interview","Event Coverage", "Visual Storytelling", "Video Production"],
+    videoUrl: "https://web.facebook.com/reel/738545572198011"
+  },
+  {
+    id: "rasa-reel-5",
+    title: "RASA Surveying: Empowering the Next Generation of Surveyors through Drone Technology Training",
+    category: "video-edit",
+    client: "RASA Surveying",
+    year: "2025",
+    description: "A video reel showcasing RASA Surveying's initiative to empower the next generation of surveyors through comprehensive drone technology training, highlighting the practical applications and benefits of drone surveying in modern geospatial practices.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t15.5256-10/524792756_1539103054195213_3729413048571226642_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1080&ctp=s960x960&_nc_cat=107&ccb=1-7&_nc_sid=5fad0e&_nc_eui2=AeH62vsnjlWWyyoaYZVaynlCqQhAfDSypjepCEB8NLKmN-F8a5jhRzTWFfnBVuOipiN1Woz9Dq0zvdaZOd1DuS9_&_nc_ohc=JIYd1x67fYkQ7kNvwFEZR6Q&_nc_oc=Ado9L5wk3TRTh5q8UxFwSLk2upFj2-Vjw28YRSD6DqAEhLrPsK0BcDw1bHFddaCaYRg&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=DowjpnGanr_wXzEkIGinkg&_nc_ss=7b2a8&oh=00_AQHqgo2fdG3fLVYi0CzUdeqIkG-dyUo76Zo4vKdwcWpCWg&oe=6A86D515",
+    skills: ["Adobe Premiere Pro", "Short Documentary", "Interview", "Event Coverage", "Visual Storytelling", "Video Production"],
+    videoUrl: "https://web.facebook.com/reel/1451300506052807"
+  },
+  {
+    id: "tecphil-reel-1",
+    title: "TecPhil: Drone Training Program",
+    category: "video-edit",
+    client: "TecPhil Geosolutions Co.",
+    year: "2025",
+    description: "A short promo reel highlighting TecPhil's drone training program, showcasing the hands-on experience and skills development offered to participants.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t15.5256-10/641097620_1445340283701687_3596274751448065521_n.jpg?stp=dst-jpg_tt6&cstp=mx360x640&ctp=s360x640&_nc_cat=104&ccb=1-7&_nc_sid=d2b52d&_nc_eui2=AeE_-fOZij79n5a2tgFvLsR_35DMCtrq_VPfkMwK2ur9U68PeEu3KxzcJhBLAkEDIskGgMC3mk3vnz31YIW3q6pL&_nc_ohc=IwNAxWt_OJQQ7kNvwFz5LWC&_nc_oc=Adq5WCUtY8AagUeB_LTDtRLmjiUpAorlF9wKpwVY21GMumccQIGUcfYBbrGJ1ooU3GE&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=b3Yx0xtDvabI55OloN8EWA&_nc_ss=7b2a8&oh=00_AQEA8TeR8gVu8NX2Y1dvyyk8A3XLnhbBxDc9EGCBG_JICw&oe=6A86CA2E",
+    skills: ["Adobe Premiere Pro", "Catchy Reel", "Service and Brand Promotion"],
+    videoUrl: "https://web.facebook.com/reel/1665091061319088"
+  },
+  {
+    id: "tecphil-reel-2",
+    title: "TecPhil: Journey to ISO 9001:2015 Certification",
+    category: "video-edit",
+    client: "TecPhil Geosolutions Co.",
+    year: "2025",
+    description: "A short documentary-style reel chronicling TecPhil's journey to achieving ISO 9001:2015 certification, highlighting the company's commitment to quality management and continuous improvement.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t15.5256-10/578575425_879594884746717_178766832387331473_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=107&ccb=1-7&_nc_sid=5fad0e&_nc_eui2=AeHDFrIveTGuHXT6DkSdw_Pt_c31VI9AwkL9zfVUj0DCQseQVrmApmm7GEV8uCB5oXmGmMowJs2uJHLlONBr33AH&_nc_ohc=9t4aIUxoNTsQ7kNvwGQXhvT&_nc_oc=AdqQlK8nXoN03EZQM-LAI5TvIRGUopoXgt3gyLLEievYOEbMw0QVKaKzhmvQ3dMfTkg&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=_pXGapMPprZ0K55RDVQquA&_nc_ss=7b2a8&oh=00_AQF_oLQdVct-B1rKnN5Geh8nimtyTjhr908fdjHUjh9RbQ&oe=6A86AA54",
+    skills: ["Canva", "Documentary Style", "Service and Brand Promotion"],
+    videoUrl: "https://web.facebook.com/reel/1376158763872106"
+  },
+  {
+    id: "tecphil-reel-3",
+    title: "TecPhil: A New Engineer's First GNSS RTK",
+    category: "video-edit",
+    client: "TecPhil Geosolutions Co.",
+    year: "2025",
+    description: "An interview-style reel capturing a new engineer's winning the GNSS RTK technology from TecPhil, highlighting the importance of having a new equipment as a starting professional.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t15.5256-10/576991068_1587878692178162_1326004141209397987_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=5fad0e&_nc_eui2=AeE84YULjt5JWuqDYcepah6n-kOLldW1Fnf6Q4uV1bUWdz1eX2uqHdp5ULMgYVzh0zC9tV6sJY9BjtS1HtCz_jiL&_nc_ohc=9sGmip4ctuAQ7kNvwF8zd1c&_nc_oc=AdpX-KHeotfUVuPayWwO_JOV5WlRkvF7tpmGHCm1TmH0svr23amm1V3-hxBPI7u1sUk&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=_pXGapMPprZ0K55RDVQquA&_nc_ss=7b2a8&oh=00_AQGY1YIv-LiZs2O2eO83MMk9obK2-llXtkhuK8Qz_XdkpA&oe=6A86D72B",
+    skills: ["Adobe Premiere Pro", "Documentary Style", "Service and Brand Promotion"],
+    videoUrl: "https://web.facebook.com/reel/2829811554076586"
+  },
+  {
+    id: "tecphil-reel-4",
+    title: "TecPhil: Tersus TheDuck USV",
+    category: "video-edit",
+    client: "TecPhil Geosolutions Co.",
+    year: "2025",
+    description: "A promotional reel showcasing TecPhil's Tersus TheDuck USV, highlighting its advanced features, capabilities, and applications in surveying and mapping.",
+    image: "https://scontent.fmnl44-1.fna.fbcdn.net/v/t15.5256-10/567338939_1788293408715160_4207868186290105658_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=103&ccb=1-7&_nc_sid=5fad0e&_nc_eui2=AeF9ousKwwn1RZ08jeg2jKxqPa2zEwlV0Mw9rbMTCVXQzPge-k5xIdir6IM1deIHSR1_bqmkEdDnOBDq1R47OE6l&_nc_ohc=KHgo8Vlx7V4Q7kNvwFo1fVP&_nc_oc=AdqrutCdZw9E3KgnDOw80C73TM5DcvrWPAlj_uxV0aYV-semnfWlLDspkUqcscVPJbQ&_nc_zt=23&_nc_ht=scontent.fmnl44-1.fna&_nc_gid=_pXGapMPprZ0K55RDVQquA&_nc_ss=7b2a8&oh=00_AQEECCq8Cbg4P81bHZ32JygjFnUwchFWhKBIiCYnP4d12g&oe=6A86BEBF",
+    skills: ["Adobe Premiere Pro", "Documentary Style", "Service and Brand Promotion", "Video Production"],
+    videoUrl: "https://web.facebook.com/reel/1886823448847690"
+  },
+  {
+    id: "jayo-vlog-1",
+    title: "Jayo's Boken: I Wanna Flex! My Grandmother is Tandang Sora!",
+    category: "video-edit",
+    client: "Self-initiated Vlog | Jayo the Soul Comedian",
+    year: "2021",
+    description: "A vlog episode where Jayo humorously explores his grandmother's connection to Tandang Sora along with his Aunt, blending personal storytelling with comedic elements.",
+    image: "https://i.ytimg.com/vi/WugBXw3pcJo/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDfk4vgBGi6MtZyZ7jxL8MG7emtxA",
+    skills: ["Adobe Premiere Pro", "Adobe After Effects", "Interview Style", "Influencer Content", "Video Production"],
+    videoUrl: "https://youtu.be/WugBXw3pcJo?si=p3yg1YqCaQ56i1II"
+  },
+  {
+    id: "jayo-vlog-2",
+    title: "Jayo's Boken: ANG BINABAE SA BALETE DRIVE! 😱 & ASIAN COUNTRIES TOUR",
+    category: "video-edit",
+    client: "Self-initiated Vlog | Jayo the Soul Comedian",
+    year: "2021",
+    description: "A vlog episode where Jayo humorously explores the mysterious 'Binabae' in Balete Drive along with his friend Sammy who shares his experiences touring various Asian countries, and collecting antiques, while blending personal storytelling with comedic elements.",
+    image: "https://i.ytimg.com/an_webp/TMawh378cCk/mqdefault_6s.webp?du=3000&sqp=CO-_g9QG&rs=AOn4CLBBcQs-ho0dvV9w3jOEAMZR-M_HEQ",
+    skills: ["Adobe Premiere Pro", "Adobe After Effects", "Interview Style", "Influencer Content", "Video Production"],
+    videoUrl: "https://youtu.be/TMawh378cCk?si=IBhKh9O6iVj3L5Ks"
+  },
+  {
+    id: "jayo-vlog-3",
+    title: "Jayo's Boken: Tinola Challenge",
+    category: "video-edit",
+    client: "Self-initiated Vlog | Jayo the Soul Comedian",
+    year: "2021",
+    description: "A vlog episode where Jayo humorously takes on the 'Tinola Challenge', showcasing his cooking skills and comedic storytelling, while engaging with his audience through entertaining content.",
+    image: "https://i.ytimg.com/an_webp/w0poqphIsyc/mqdefault_6s.webp?du=3000&sqp=CMTKg9QG&rs=AOn4CLClzXVppqdzk1pr4uW-xBXamvMNcg",
+    skills: ["Adobe Premiere Pro", "Adobe After Effects", "Interview Style", "Influencer Content", "Video Production"],
+    videoUrl: "https://youtu.be/w0poqphIsyc?si=nrEwVfxNll6h0v4i"
   },
 
   // Logo & Branding
   {
-    id: "aura-skincare",
-    title: "Aura Skincare Brand Rebrand & Guidelines",
+    id: "tsms-logo-branding",
+    title: "TecPhil Surveying and Mapping Services Logo & Branding",
     category: "logo-branding",
-    client: "Aura Labs",
-    year: "2026",
-    description: "Holistic modern rebrand representing botanical cleanliness. Includes minimalist monoline logos, earth-tone color systems, customized glass jar labels, and geometric typography rules.",
-    image: "https://images.unsplash.com/photo-1527061011665-3652c757a4d4?auto=format&fit=crop&w=900&q=80",
-    skills: ["Brand Guidelines", "Minimalist Logo", "Product Packaging", "Eco Stock Selector"],
-    caseStudyId: "aura-skincare"
-  },
-  {
-    id: "volt-electric",
-    title: "Volt Electric Mobility Identity Systems",
-    category: "logo-branding",
-    client: "Volt Micro",
+    client: "TecPhil Surveying and Mapping Services",
     year: "2025",
-    description: "A hyper-dynamic identity system built on geometric angles, neon-green electric color swatches, active charging icons, and fluid responsive guidelines for hardware.",
-    image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=900&q=80",
-    skills: ["Vector Branding", "Stationery Layouts", "Hardware Marking", "Symbol Synthesis"]
-  }
+    description: "Logo and branding design for TecPhil Surveying and Mapping Services, focusing on creating a professional and modern visual identity that reflects the company's expertise in surveying and mapping solutions.",
+    image: "https://i.ibb.co/hR7pkzmK/Screenshot-2026-08-16-072359.png",
+    skills: ["Brand Guidelines", "Minimalist Logo", "Product Packaging", "Typography Design"],
+    link: "https://drive.google.com/file/d/1TYoicPSbcAwT9yTpj4scIA-jGkfHrnHo/view?usp=sharing"
+    // caseStudyId: "tsms-branding"
+  },
 ];
 
 export const BLOG_POSTS: BlogPost[] = [
@@ -566,54 +690,6 @@ export const BLOG_POSTS: BlogPost[] = [
       "The highest form of modern creative direction is human-AI symbiosis: using generative prompt suites for rapid 100x concept ideation, and human craftsmanship for final typographic hierarchy, spatial balancing, and emotional resonance."
     ]
   },
-  {
-    id: "social-media-retention",
-    title: "The 3-Second Hook: Structuring High-Converting Social Media Visuals",
-    excerpt: "Analyzing the anatomy of viral design carousels, algorithmic engagement signals, and converting passive scrollers into passionate brand advocates.",
-    date: "May 08, 2026",
-    readTime: "5 min read",
-    category: "Social Media Strategy",
-    tags: ["Social Growth", "Content Strategy", "Visual Hooks", "Community Building"],
-    image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=600&q=80",
-    content: [
-      "In social media management, the first 3 seconds of a video or the first slide of an Instagram carousel determine 90% of total engagement. Algorithms reward retention rate and shares far higher than passive likes.",
-      "To build a high-performing visual hook, combine an unexpected counter-intuitive visual contrast with bold, single-line headline typography. Avoid long introductory fluff; deliver value in the first frame.",
-      "A successful social media management system relies on clear pillar architectures: 40% Education & Actionable Insight, 30% Proof & Case Studies, 20% Cultural / Behind-the-Scenes Personality, and 10% Direct Conversion Offers.",
-      "Pairing consistency in posting schedules with genuine community interaction in the comments section fosters loyal brand advocates who amplify organic reach with zero paid ad spend."
-    ]
-  },
-  {
-    id: "typography-grids",
-    title: "The Silent Grid: How Typography Guides Eyes on Minimal Portfolios",
-    excerpt: "An in-depth look at visual hierarchy, modern lettering contrast, and why intentional negative space beats visual clutter every single time.",
-    date: "April 24, 2026",
-    readTime: "5 min read",
-    category: "Typography & Layouts",
-    tags: ["Grid systems", "Minimalism", "Aesthetics", "Font pairings"],
-    image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80",
-    content: [
-      "In design, quietness is a superpower. When developers or designers attempt to build personal landing pages or GitHub portfolios, they often feel an urge to fill every pixel of empty width with animated charts or secondary buttons. Truly exceptional interfaces breathe through structural negative space.",
-      "The layout grid is the skeletal framework of readability. By aligning primary headings to dynamic asymmetric columns, you form a clear scanning order for potential clients, hiring directors, and design partners.",
-      "When styling headings, choose display fonts that convey your design character (like Space Grotesk) and pair them with humble, practical geometric sans-serif fonts for the text (such as Inter). Keep your font scale tightly grouped: four sizes are usually enough to cover everything from caption texts to display blocks.",
-      "Readability is the perfect balance of font size, line-height, character spacing (tracking), and container margins. If a reader can scan your story without cognitive fatigue, they will absorb, register, and remember your work."
-    ]
-  },
-  {
-    id: "video-rhythm-cuts",
-    title: "Pacing and Rhythm: Post-Production Secrets for Modern Video Directors",
-    excerpt: "How to edit cinematic videos, master transition pacing, synchronize custom soundtracks, and maintain tension throughout a high-energy corporate showcase.",
-    date: "March 18, 2026",
-    readTime: "7 min read",
-    category: "Video & Motion",
-    tags: ["Video Editing", "Rhythm Sync", "Color Grading", "Film Pacing"],
-    image: "https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&w=600&q=80",
-    content: [
-      "Most video editors approach cuts as simple logical dividers between video clips. Rich, memorable editing treats cuts as musical beats. Synchronizing timeline markers directly with audio transients sets up a rhythmic dialogue that keeps the viewer's eyes glued to the screen.",
-      "To prevent your flow from becoming monotonous, practice the principle of rhythmic contrast. Group rapid, high-intensity cuts inside active transition points, then contrast them with long, steady, panoramic frames immediately following.",
-      "Color grading is your emotional anchor. Applying a stylized, low-saturation LUT combined with deep, warm midtones establishes an instant cinema mood. Color is light, and light is story.",
-      "Lastly, don't overlook sound effects (SFX) layering. The visual track of a subject in motion only reaches its full potential when supported by custom sub-bass risers, metallic sweeps, and ambient atmospheric textures."
-    ]
-  }
 ];
 
 export const CASE_STUDIES: CaseStudy[] = [
@@ -625,16 +701,20 @@ export const CASE_STUDIES: CaseStudy[] = [
     timeline: "August - December 2025",
     role: "Multimedia Designer & Social Media Designer / Social Media Manager",
     challenge: `TecPhil Geosolutions Co. operates in a highly technical industry, providing GNSS receivers, surveying instruments, LiDAR scanners, UAV solutions, mobile mapping technologies, and other geospatial equipment for professionals in surveying, engineering, construction, mining, architecture, and land development. 
-              \n The challenge was to translate highly technical products and services into social media content that was informative, visually engaging, and commercially relevant without making the brand feel overly technical or repetitive. 
-              \n The social media presence needed to do more than showcase products. It needed to: 
-              \n • Educate audiences about surveying and geospatial technology.
-              \n • Communicate complex product features in an accessible way.
-              \n • Establish TecPhil as a knowledgeable and reliable industry resource.
-              \n • Promote products and services without relying exclusively on sales-oriented posts.
-              \n • Support events, product demonstrations, client activities, and industry campaigns.
-              \n • Create a recognizable and consistent content direction across social platforms.
-              \n • Maintain audience interest through recurring and recognizable content formats.`,
+              
+    The challenge was to translate highly technical products and services into social media content that was informative, visually engaging, and commercially relevant without making the brand feel overly technical or repetitive. 
+              
+    The social media presence needed to do more than showcase products. It needed to: 
+              
+    • Educate audiences about surveying and geospatial technology.
+    • Communicate complex product features in an accessible way.
+    • Establish TecPhil as a knowledgeable and reliable industry resource.
+    • Promote products and services without relying exclusively on sales-oriented posts.
+    • Support events, product demonstrations, client activities, and industry campaigns.
+    • Create a recognizable and consistent content direction across social platforms.
+    • Maintain audience interest through recurring and recognizable content formats.`,
     solution: `I developed a content-driven social media strategy built around four core content pillars:
+    
                 01 — Education
                 Transform technical knowledge into accessible and useful content.
                 Examples included surveying tips, technology explainers, product feature breakdowns, “Did You Know?” posts, and educational content about GNSS, LiDAR, mapping, and surveying workflows.
@@ -653,8 +733,10 @@ export const CASE_STUDIES: CaseStudy[] = [
       {
         title: "1. Understanding the Brand & Audience",
         description: `I first examined TecPhil's position within the geospatial technology industry and identified the audiences most relevant to its products and services.
-                      The content direction was developed around professionals such as Geodetic Engineers, surveyors, engineers, contractors, construction professionals, and organizations involved in land development and mapping.
-                      This allowed the content to move beyond generic promotional graphics and become more relevant to the actual problems and workflows of the target audience`,
+                      
+        The content direction was developed around professionals such as Geodetic Engineers, surveyors, engineers, contractors, construction professionals, and organizations involved in land development and mapping.
+                      
+        This allowed the content to move beyond generic promotional graphics and become more relevant to the actual problems and workflows of the target audience`,
       },
       {
         title: "2. Building the Content Architecture",
@@ -666,14 +748,14 @@ export const CASE_STUDIES: CaseStudy[] = [
 
                       Recurring content concepts included:
 
-                      Mapping Insights
-                      Mapping Mastery Series
-                      GeoWise Wednesday
-                      Tool Highlight Thursday
-                      Feature Friday
-                      The Precision Playbook
-                      Survey Facts Uncovered
-                      The Precision Series
+                      • Mapping Insights
+                      • Mapping Mastery Series
+                      • GeoWise Wednesday
+                      • Tool Highlight Thursday
+                      • Feature Friday
+                      • The Precision Playbook
+                      • Survey Facts Uncovered
+                      • The Precision Series
 
                       These recurring formats created a framework for producing consistent content while allowing individual products, technologies, and industry topics to be incorporated naturally.`,
       },
@@ -683,14 +765,14 @@ export const CASE_STUDIES: CaseStudy[] = [
 
                       Instead of presenting specifications as dense technical documentation, I translated them into:
 
-                      Feature-focused graphics
-                      Infographics
-                      Product highlight cards
-                      Comparison posts
-                      Educational slides
-                      Promotional posters
-                      Product demonstration content
-                      Social media captions and CTAs
+                      • Feature-focused graphics
+                      • Infographics
+                      • Product highlight cards
+                      • Comparison posts
+                      • Educational slides
+                      • Promotional posters
+                      • Product demonstration content
+                      • Social media captions and CTAs
 
                       The objective was to make the technical value of the product visually understandable within a few seconds.`,
       },
@@ -712,14 +794,14 @@ export const CASE_STUDIES: CaseStudy[] = [
 
                       I developed creative concepts and promotional materials for:
 
-                      Industry events
-                      Exhibitions
-                      Seminars
-                      Product demonstrations
-                      Product launches and highlights
-                      Client activities
-                      Geodetic Engineer-related campaigns
-                      Industry conferences and sponsorships
+                      • Industry events
+                      • Exhibitions
+                      • Seminars
+                      • Product demonstrations
+                      • Product launches and highlights
+                      • Client activities
+                      • Geodetic Engineer-related campaigns
+                      • Industry conferences and sponsorships
 
                       A key example was supporting communication around industry events such as the 5th Philippine Roads, Bridges and Tunnels Summit, where social content helped reinforce TecPhil's participation and industry presence.`,
       },
@@ -731,14 +813,14 @@ export const CASE_STUDIES: CaseStudy[] = [
 
                       Design decisions considered:
 
-                      Typography hierarchy
-                      Product photography
-                      Technical diagrams
-                      Information hierarchy
-                      Brand colors
-                      CTA placement
-                      Platform-specific dimensions
-                      Readability on mobile devices
+                      • Typography hierarchy
+                      • Product photography
+                      • Technical diagrams
+                      • Information hierarchy
+                      • Brand colors
+                      • CTA placement
+                      • Platform-specific dimensions
+                      • Readability on mobile devices
 
                       The overall creative direction positioned TecPhil as a professional, technical, and modern geospatial technology brand.`,
       },
@@ -756,73 +838,8 @@ export const CASE_STUDIES: CaseStudy[] = [
     results: [
       { metric: "Core Content Pillars", value: "4", description: "Established Education, Promotion, Entertainment, and Inspiration as the foundation of the social media strategy, creating a more diverse content mix." },
       { metric: "Recurring Content Concepts", value: "8+", description: "Developed recurring series such as Mapping Insights, Mapping Mastery Series, GeoWise Wednesday, Tool Highlight Thursday, Feature Friday, The Precision Playbook, and Survey Facts Uncovered to create consistency and recognizable content formats." },
-      { metric: "DTC Launch Conversion", value: "3.4x", description: "First batch of 20,000 cases sold out within 14 days of campaign rollout." }
+      { metric: "Key Audience Objectives", value: "4", description: "Education → Engagement → Awareness → Conversion | Content was designed to educate audiences, encourage interaction, build awareness of TecPhil's solutions, and ultimately support inquiries and sales conversations." }
     ]
   },
-  {
-    id: "aura-skincare",
-    category: "logo-branding",
-    title: "Aura Skincare Rebrand & Botanical Visual Identity",
-    client: "Aura Labs Inc.",
-    timeline: "3 Months (Q1 2026)",
-    role: "Lead Brand Identity Designer",
-    challenge: "Aura Labs had created high-quality, scientifically proven botanical serums, but their existing plastic branding made them look like generic pharmacy items. They needed a luxury, ecological, premium brand image capable of standing out on visual social shelves and high-end organic boutique stores.",
-    solution: "We designed a holistic, high-nature visual identity system focusing on tactile minimalism. Combining organic earth tones (moss green, raw clay, warm desert linen) with a clean monoline typographic mark, we custom-designed embossed label matrices, eco-responsible glass jars, and thorough brand guidelines.",
-    process: [
-      {
-        title: "1. Brand Auditing & Vision Aligning",
-        description: "Evaluated competitors in the premium skincare sphere. We established that while competitors used aggressive modern science labels, Aura could represent a harmonious 'nature-meets-laboratory' balance.",
-      },
-      {
-        title: "2. Monoline Typography & Mark Selection",
-        description: "Engineered a minimalist geometry logo featuring overlapping soft botanical leaves, aligned completely within a perfect circle. Hand-polished serif tracking for the brand lettering.",
-      },
-      {
-        title: "3. Packaging Materials & Layout Mocking",
-        description: "Sourced post-consumer recycled thick amber glass containers and textured cotton labels that feel rough and luxury to organic hands.",
-      },
-      {
-        title: "4. Building the Digital Brand Playbook",
-        description: "Constructed detailed rules for secondary fonts, strict safe-zone spacing boundaries, color contrast standards for digital screens, and creative campaign themes.",
-      }
-    ],
-    results: [
-      { metric: "Design Award Nominations", value: "3", description: "Secured nominations in global packaging categories." },
-      { metric: "B2B Retail Pickups", value: "+300%", description: "Organic boutiques and hotel chains picked up Aura serums in record time." },
-      { metric: "Instagram Engagement", value: "+74%", description: "Aesthetic bottle photography naturally boosted social media sharing." }
-    ]
-  },
-  {
-    id: "pulse-fintech",
-    category: "ui-ux",
-    title: "Pulse Crypto Dashboard Interface & Atomic Design System",
-    client: "Pulse Finance Corp",
-    timeline: "4 Months (Winter 2025)",
-    role: "Principal Product Designer",
-    challenge: "Traditional cryptocurrency dashboards are notoriously cluttered, overwhelming retail investors with flashing numbers, disconnected data columns, and visual noise. Pulse needed a highly calming, accessible, dashboard interface that keeps metrics clean and empowers users to trade with high confidence.",
-    solution: "We engineered a modular widget-based dashboard layout utilizing a soothing deep-ocean color scale, high-precision typography components, and visual charts that compress data without losing detail. We bundled this into an extensible atomic design system.",
-    process: [
-      {
-        title: "1. Persona Wireframing & Task Optimization",
-        description: "Conducted user research with 20 active crypto investors. Discovered that the primary pain point was checking multi-sig transactions without visiting scanning pages.",
-      },
-      {
-        title: "2. Setting up the Atomic Design Token System",
-        description: "Built strict tokens for borders, corners, semantic error colors, and layout widths in Figma to allow engineers to build and edit code modularly.",
-      },
-      {
-        title: "3. Chart Clutter Reduction & Refraction",
-        description: "Created simplified custom canvas graphs showing candle vectors, volume trends, and moving averages on light-hovering interactions only.",
-      },
-      {
-        title: "4. Stress-Testing in Real environments",
-        description: "Tested the wireframes with light/dark contrast and rapid price changes to verify immediate readability across different viewport environments.",
-      }
-    ],
-    results: [
-      { metric: "Onboarding Fluidity", value: "+45%", description: "Users completed their first cold-wallet configuration in half the usual steps." },
-      { metric: "Active Daily Session Retention", value: "82%", description: "High retention rates attributed to the clean design." },
-      { metric: "Engineering Transfer Speed", value: "2x", description: "Shared Figma design tokens minimized frontend coding iterations." }
-    ]
-  }
+  
 ];

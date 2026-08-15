@@ -363,6 +363,22 @@ export default function WorksGallery({ onNavigateToCaseStudy }: WorksGalleryProp
                       </button>
                     )}
 
+                    {/* Live Preview Button for Video-category */}
+                    {activeModalItem.category === 'video-edit' && activeModalItem.videoUrl && (
+                      <div className="absolute inset-0 flex items-center justify-center items-start pt-[25%]">
+                        <a
+                          href={activeModalItem.videoUrl}
+                          target="_blank"
+                          rel="noreferrer"
+                          onClick={(e) => e.stopPropagation()}
+                          className="flex items-center gap-2 border-2 border-black bg-yellow-300 px-5 py-3 font-display text-xs font-black text-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:bg-yellow-400 hover:scale-105"
+                        >
+                          <Play className="h-4 w-4 fill-black" />
+                          <span>Live Preview</span>
+                          <ExternalLink className="h-3.5 w-3.5" />
+                        </a>
+                      </div>
+                    )}
                     {activeModalItem.link && (
                       <a
                         href={activeModalItem.link}

@@ -183,7 +183,7 @@ export default function CaseStudies({ selectedId, setSelectedId }: CaseStudiesPr
                         </div>
                         <h3 className="font-display font-black text-lg text-black">The Challenge</h3>
                       </div>
-                      <p className="text-zinc-800 text-sm leading-relaxed font-semibold">
+                      <p className="whitespace-pre-line text-zinc-800 text-sm leading-relaxed font-semibold">
                         {selectedStudy.challenge}
                       </p>
                     </div>
@@ -196,7 +196,7 @@ export default function CaseStudies({ selectedId, setSelectedId }: CaseStudiesPr
                         </div>
                         <h3 className="font-display font-black text-lg text-black">The Solution</h3>
                       </div>
-                      <p className="text-zinc-800 text-sm leading-relaxed font-semibold">
+                      <p className="whitespace-pre-line text-zinc-800 text-sm leading-relaxed font-semibold">
                         {selectedStudy.solution}
                       </p>
                     </div>
@@ -207,10 +207,10 @@ export default function CaseStudies({ selectedId, setSelectedId }: CaseStudiesPr
                   <div className="space-y-8" id="case_study_chronology_box">
                     <div className="max-w-2xl bg-white border-2 border-black p-5 bento-shadow">
                       <h3 className="font-display text-2xl font-black text-black">
-                        Tactical Production Timeline 
+                        Process & Production Breakdown
                       </h3>
                       <p className="mt-1 text-zinc-700 text-sm font-semibold">
-                        Behind-the-scenes actions detailing reviews, physical sketches, vectors, interface variables, and quality checklists.
+                        A breakdown of the strategic and design process, from ideation to final execution. Each step highlights key decisions, iterations, and insights that shaped the final outcome.
                       </p>
                     </div>
 
@@ -226,7 +226,7 @@ export default function CaseStudies({ selectedId, setSelectedId }: CaseStudiesPr
                             <h4 className="font-display font-black text-lg text-black">
                               {step.title}
                             </h4>
-                            <p className="text-zinc-700 text-xs md:text-sm leading-relaxed max-w-4xl font-semibold">
+                            <p className="whitespace-pre-line text-zinc-700 text-xs md:text-sm leading-relaxed max-w font-semibold">
                               {step.description}
                             </p>
                           </div>
