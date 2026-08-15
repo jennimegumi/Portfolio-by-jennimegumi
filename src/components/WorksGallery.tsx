@@ -94,7 +94,7 @@ export default function WorksGallery({ onNavigateToCaseStudy }: WorksGalleryProp
               Creative Portfolio
             </h1>
             <p className="mt-2 text-zinc-700 text-sm font-medium">
-              Explore dynamic designs filtered by discipline. Each piece represents an elegant solution built with strict focus on utility and high-contrast visuals.
+              Explore a curated collection of my design works, showcasing a diverse range of projects that highlight my skills, creativity, and problem-solving abilities across various mediums and industries.
             </p>
           </div>
 

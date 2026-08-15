@@ -79,7 +79,7 @@ export default function Hero({ onNavigate }: HeroProps) {
             <div className="space-y-4 relative z-10">
               <div className="inline-flex items-center space-x-2 border-2 border-black bg-pink-300 px-3 py-1 text-xs font-mono font-bold text-black uppercase tracking-wider">
                 <Sparkles className="h-3.5 w-3.5 animate-pulse" />
-                <span>Designer Portfolio</span>
+                <span>ABOUT ME</span>
               </div>
 
               <h1 className="font-display text-3xl sm:text-4.5xl md:text-5.5xl font-black leading-none text-black tracking-tight">
@@ -87,7 +87,7 @@ export default function Hero({ onNavigate }: HeroProps) {
               </h1>
 
               <p className="text-zinc-800 text-base md:text-md leading-relaxed font-medium max-w-2xl">
-                Hello there! I am <b className="text-black font-extrabold">{DESIGNER_INFO.name}</b>, {DESIGNER_INFO.about}
+                Hello there! I am <b className="text-black font-extrabold">{DESIGNER_INFO.name}</b> {DESIGNER_INFO.about}
               </p>
             </div>
 
@@ -129,7 +129,7 @@ export default function Hero({ onNavigate }: HeroProps) {
             className="md:col-span-4 border-2 border-black bg-white p-6 bento-shadow flex flex-col justify-between overflow-hidden"
             id="hero_profile_art_box"
           >
-            {/* SVG Generative Art Sculpture */}
+            {/* DISABLING SVG ART |  SVG Generative Art Sculpture 
             <div className="relative h-48 border-2 border-black bg-zinc-950 flex items-center justify-center overflow-hidden">
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(236,72,153,0.15),transparent_70%)]" />
               <div className="absolute inset-0 bento-grid-dashed-bg opacity-10" />
@@ -174,19 +174,25 @@ export default function Hero({ onNavigate }: HeroProps) {
                 MODULE: ACTIVE / REF_019A
               </span>
             </div>
-
+            */}
             <div className="mt-4 space-y-2">
+              {/* Designer Photo */}
+                <div className="w-full h-auto">
+                <img src="https://i.ibb.co/yjJw6pw/Portfolio-hero-pic.png"
+                alt={`${DESIGNER_INFO.name} profile`} 
+                className="w-full h-auto object-cover"/>
+                </div>
               <div className="flex justify-between items-start">
                 <div>
                   <h3 className="font-display text-lg font-black text-black">{DESIGNER_INFO.name}</h3>
                   <p className="font-mono text-xs font-bold text-zinc-600">{DESIGNER_INFO.title}</p>
                 </div>
                 <span className="border border-black bg-pink-100 px-1.5 py-0.5 font-mono text-[9px] font-bold text-black uppercase">
-                  MASTER
+                  Quote
                 </span>
               </div>
               <p className="text-xs text-zinc-600 leading-relaxed font-medium">
-                "Design is never decorative. It is the architectural alignment of human emotion and functional rules."
+                "Creativity creates possibilities. Design gives those possibilities direction."
               </p>
             </div>
           </motion.div>
@@ -217,7 +223,7 @@ export default function Hero({ onNavigate }: HeroProps) {
               </div>
             </div>
             <div className="mt-4 font-mono text-[10px] text-zinc-600 bg-white/50 p-2 text-center border border-dashed border-black/20">
-              VERIFIED GITHUB ACCOUNT
+              MULTIMEDIA DESIGNER EXPERTISE
             </div>
           </motion.div>
 
@@ -234,7 +240,7 @@ export default function Hero({ onNavigate }: HeroProps) {
             <div className="space-y-3">
               <div className="flex items-center space-x-2 border-b border-black pb-2">
                 <ShieldCheck className="h-4 w-4 text-black" />
-                <span className="font-display text-xs font-extrabold uppercase text-black tracking-wider">Commision Card</span>
+                <span className="font-display text-xs font-extrabold uppercase text-black tracking-wider">Commission Card</span>
               </div>
               
               <div className="space-y-2">
@@ -243,19 +249,19 @@ export default function Hero({ onNavigate }: HeroProps) {
                   <span className="text-xs font-extrabold text-black uppercase">AVAILABLE NOW</span>
                 </div>
                 <p className="text-xs text-zinc-700 font-medium">
-                  Currently accepting contract projects, visual artwork consulting, brand development, and interface UI styling systems.
+                  Currently accepting graphic design, social media video edits, and art commission projects (traditional and digital artwork).
                 </p>
               </div>
             </div>
 
             <div className="mt-4 flex items-center justify-between border-t border-black/10 pt-3">
-              <div>
+              {/*<div>
                 <span className="block text-[9px] font-mono text-zinc-600 uppercase">TIMELINE</span>
                 <span className="text-xs font-bold text-black">Q2-Q4 2026</span>
-              </div>
+              </div>*/}
               <div>
                 <span className="block text-[9px] font-mono text-zinc-600 uppercase">OFFICE</span>
-                <span className="text-xs font-bold text-black">SF / REMOTE</span>
+                <span className="text-xs font-bold text-black">QC / REMOTE</span>
               </div>
             </div>
           </motion.div>
@@ -271,17 +277,17 @@ export default function Hero({ onNavigate }: HeroProps) {
                 “
               </div>
               <p className="text-zinc-800 text-sm italic font-medium leading-relaxed">
-                Marcus completely redefined our visual presence. His work on our branding guidelines and mobile application raised our venture round of funding.
+                Despite her youth, Jenny demonstrates remarkable leadership qualities. She has managed projects with focus, clarity, and professionalism far beyond her years.
               </p>
             </div>
 
             <div className="mt-4 pt-3 border-t border-black/10 flex items-center space-x-2">
               <div className="h-6 w-6 rounded-full bg-black/10 border border-black/20 flex items-center justify-center font-mono text-[10px] font-bold text-black">
-                ER
+                JB
               </div>
               <div>
-                <span className="block text-[10px] font-extrabold text-black">Elena Rostova</span>
-                <span className="block text-[9px] font-mono font-bold text-zinc-600 leading-none">CEO & Co-founder, Aura Labs</span>
+                <span className="block text-[10px] font-extrabold text-black">Jasper Briones</span>
+                <span className="block text-[9px] font-mono font-bold text-zinc-600 leading-none">Marketing Manager, Havitas</span>
               </div>
             </div>
           </motion.div>
@@ -295,10 +301,10 @@ export default function Hero({ onNavigate }: HeroProps) {
             <div className="flex animate-infinite-scroll whitespace-nowrap space-x-8 font-display text-xs font-black uppercase text-black">
               <span className="bg-white border border-black px-2 py-0.5 inline-block">★ GENERATIVE AI PROMPTING</span>
               <span>✦ SOCIAL MEDIA MANAGEMENT & STRATEGY</span>
-              <span className="bg-lime-200 border border-black px-2 py-0.5 inline-block text-black">★ ATOMIC UI/UX SYSTEMS</span>
-              <span>✦ BRUTALIST BENTO ARCHITECTURE</span>
-              <span className="bg-pink-300 border border-black px-2 py-0.5 inline-block text-black">★ 4.8M+ VIRAL REACH</span>
-              <span>✦ BRAND IDENTITY LANDMARKS</span>
+              <span className="bg-lime-200 border border-black px-2 py-0.5 inline-block text-black">★ MULTIMEDIA DESIGNS</span>
+              <span>✦ ENTHUSIASTIC ARTIST AND LEARNER</span>
+              <span className="bg-pink-300 border border-black px-2 py-0.5 inline-block text-black">★ CREATIVE MIND</span>
+              <span>✦ VISIONARY</span>
             </div>
           </motion.div>
 
@@ -313,7 +319,7 @@ export default function Hero({ onNavigate }: HeroProps) {
                 Areas of Expertise & Skills
               </h2>
               <p className="text-zinc-600 text-sm font-medium">
-                My multidisciplinary approach bridges the gap between advanced Generative AI workflows, high-growth social media management, and atomic visual systems.
+                My multidisciplinary approach bridges the gap between creativity and technology, allowing me to deliver innovative solutions across various domains.
               </p>
             </div>
 
@@ -367,7 +373,7 @@ export default function Hero({ onNavigate }: HeroProps) {
                 Collaborator Testimonies
               </h2>
               <p className="text-zinc-600 text-sm font-medium">
-                Read direct feedback from company founders, engineering leaders, and brand directors.
+                Read direct feedback from company founders and previous clients.
               </p>
             </div>
 

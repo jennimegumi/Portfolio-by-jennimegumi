@@ -42,7 +42,7 @@ export default function Navbar({ activeTab, setActiveTab }: NavbarProps) {
               {DESIGNER_INFO.name}
             </span>
             <span className="ml-1.5 font-mono text-[10px] font-bold bg-yellow-300 text-black border border-black px-1.5 py-0.5 rounded-none uppercase tracking-widest">
-              Design
+              PORTFOLIO
             </span>
           </div>
         </div>

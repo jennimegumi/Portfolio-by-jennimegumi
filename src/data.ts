@@ -618,35 +618,144 @@ export const BLOG_POSTS: BlogPost[] = [
 
 export const CASE_STUDIES: CaseStudy[] = [
   {
-    id: "social-growth-campaign",
+    id: "tecphil-socmed-posts",
     category: "social-media",
-    title: "Kroma Energy: 4.8M Reach Social Media Overhaul & AI-Augmented Visual Engine",
-    client: "Kroma Beverage Co.",
-    timeline: "3 Months (Spring 2026)",
-    role: "Head of Social Strategy & Visual Direction",
-    challenge: "Kroma Beverage needed to launch their zero-sugar organic energy drink into a fiercely competitive market dominated by legacy brands with multi-million dollar ad budgets. They lacked an established social footprint and needed an authentic, high-velocity organic content strategy to build an engaged community from scratch.",
-    solution: "We engineered an omni-channel social media growth engine combining Generative AI-prompted concept art with high-retention short-form video hooks on TikTok and Instagram Reels. We established a daily publishing cadence, interactive community polling, and a distinct rebellious brand voice.",
+    title: "TecPhil Geosolutions Co. Building a More Strategic Social Media Presence for a Geospatial Technology Brand",
+    client: "TecPhil Geosolutions Co.",
+    timeline: "August - December 2025",
+    role: "Multimedia Designer & Social Media Designer / Social Media Manager",
+    challenge: `TecPhil Geosolutions Co. operates in a highly technical industry, providing GNSS receivers, surveying instruments, LiDAR scanners, UAV solutions, mobile mapping technologies, and other geospatial equipment for professionals in surveying, engineering, construction, mining, architecture, and land development. 
+              \n The challenge was to translate highly technical products and services into social media content that was informative, visually engaging, and commercially relevant without making the brand feel overly technical or repetitive. 
+              \n The social media presence needed to do more than showcase products. It needed to: 
+              \n • Educate audiences about surveying and geospatial technology.
+              \n • Communicate complex product features in an accessible way.
+              \n • Establish TecPhil as a knowledgeable and reliable industry resource.
+              \n • Promote products and services without relying exclusively on sales-oriented posts.
+              \n • Support events, product demonstrations, client activities, and industry campaigns.
+              \n • Create a recognizable and consistent content direction across social platforms.
+              \n • Maintain audience interest through recurring and recognizable content formats.`,
+    solution: `I developed a content-driven social media strategy built around four core content pillars:
+                01 — Education
+                Transform technical knowledge into accessible and useful content.
+                Examples included surveying tips, technology explainers, product feature breakdowns, “Did You Know?” posts, and educational content about GNSS, LiDAR, mapping, and surveying workflows.
+
+                02 — Promotion
+                Position TecPhil's products and services as practical solutions rather than simply products for sale.
+                Product highlights, feature-focused graphics, product demonstrations, delivery announcements, and promotional campaigns were designed to communicate what the technology does, why it matters, and who can benefit from it.
+
+                03 — Entertainment
+                Introduce lighter and more approachable formats to prevent the social feed from becoming entirely technical.
+                This included interactive concepts, relatable surveying content, industry-oriented social posts, and visually engaging formats designed to make technical subjects easier to consume.
+
+                04 — Inspiration
+                Strengthen the brand's connection with professionals in the surveying, engineering, construction, and geospatial industries through industry insights, success-oriented messaging, events, and technology-focused storytelling.`,
     process: [
       {
-        title: "1. Audience Persona & Algorithmic Blueprinting",
-        description: "Mapped Gen-Z and millennial fitness audiences. Identified top-performing content archetypes: rapid-cut recipe hacks, clean desk aesthetic routines, and relatable founder storytelling.",
+        title: "1. Understanding the Brand & Audience",
+        description: `I first examined TecPhil's position within the geospatial technology industry and identified the audiences most relevant to its products and services.
+                      The content direction was developed around professionals such as Geodetic Engineers, surveyors, engineers, contractors, construction professionals, and organizations involved in land development and mapping.
+                      This allowed the content to move beyond generic promotional graphics and become more relevant to the actual problems and workflows of the target audience`,
       },
       {
-        title: "2. Generative AI Prompting for Rapid Visual Ideation",
-        description: "Built proprietary Midjourney v6 and Stable Diffusion prompt templates to generate 50+ hyper-stylized 3D can mockups in fantastical environments every week for social teaser carousels.",
+        title: "2. Building the Content Architecture",
+        description: `Rather than creating isolated posts, I organized content into repeatable themes and content pillars.
+
+                      This resulted in a structured system that balanced:
+
+                      Education → Engagement → Product Awareness → Conversion
+
+                      Recurring content concepts included:
+
+                      Mapping Insights
+                      Mapping Mastery Series
+                      GeoWise Wednesday
+                      Tool Highlight Thursday
+                      Feature Friday
+                      The Precision Playbook
+                      Survey Facts Uncovered
+                      The Precision Series
+
+                      These recurring formats created a framework for producing consistent content while allowing individual products, technologies, and industry topics to be incorporated naturally.`,
       },
       {
-        title: "3. Short-Form Video & Visual Hook Architecture",
-        description: "Scripted and edited 45 high-tempo Reels and TikToks utilizing the '3-Second Visual Hook' formula, custom sound effects, and kinetic typography overlays.",
+        title: "3. Translating Technical Information into Visual Content",
+        description: `One of the key responsibilities was turning product specifications and technical information into content that could be understood quickly on social media.
+
+                      Instead of presenting specifications as dense technical documentation, I translated them into:
+
+                      Feature-focused graphics
+                      Infographics
+                      Product highlight cards
+                      Comparison posts
+                      Educational slides
+                      Promotional posters
+                      Product demonstration content
+                      Social media captions and CTAs
+
+                      The objective was to make the technical value of the product visually understandable within a few seconds.`,
       },
       {
-        title: "4. Community Engagement Loops & Creator Seeding",
-        description: "Managed real-time comment interactions, engaged in viral brand banter, and coordinated micro-influencer product seeding that generated over 300+ organic user videos.",
-      }
+        title: "4. Product Storytelling",
+        description: `Product content was structured around the relationship between feature, function, and application.
+
+                      For example, instead of simply stating a product's specifications, the content could communicate:
+
+                      What is it? → What can it do? → Where is it useful? → Why does it matter to the user?
+
+                      This approach was applied to products and technologies including Tersus GNSS receivers, LiDAR solutions, surveying instruments, UAV photogrammetry, mobile mapping, and other geospatial equipment.
+
+                      The strategy helped shift product communication from “Here is our product” toward “Here is the problem this technology can help solve.”`,
+      },
+      {
+        title: "5. Campaign & Event Support",
+        description: `Social media was also used as an extension of TecPhil's offline marketing activities.
+
+                      I developed creative concepts and promotional materials for:
+
+                      Industry events
+                      Exhibitions
+                      Seminars
+                      Product demonstrations
+                      Product launches and highlights
+                      Client activities
+                      Geodetic Engineer-related campaigns
+                      Industry conferences and sponsorships
+
+                      A key example was supporting communication around industry events such as the 5th Philippine Roads, Bridges and Tunnels Summit, where social content helped reinforce TecPhil's participation and industry presence.`,
+      },
+      {
+        title: "6. Visual Consistency & Brand Communication",
+        description: `I maintained a consistent visual language across social media while adapting creative formats according to the content type.
+
+                      The goal was to make TecPhil's posts recognizable while ensuring that technical information remained visually organized.
+
+                      Design decisions considered:
+
+                      Typography hierarchy
+                      Product photography
+                      Technical diagrams
+                      Information hierarchy
+                      Brand colors
+                      CTA placement
+                      Platform-specific dimensions
+                      Readability on mobile devices
+
+                      The overall creative direction positioned TecPhil as a professional, technical, and modern geospatial technology brand.`,
+      },
+      {
+        title: "7. Content Planning & Publishing Strategy",
+        description: `Content was planned around a mixture of educational, promotional, industry, and engagement-focused topics rather than relying on a single type of post.
+
+                      This created a more balanced social media ecosystem:
+
+                      Educate → Engage → Demonstrate → Promote → Reinforce Brand Authority
+
+                      Content calendars were developed to maintain consistency and coordinate product promotions, educational campaigns, events, and industry-related opportunities.`,
+      },
     ],
     results: [
-      { metric: "Total Organic Impressions", value: "4.8M+", description: "Reached across TikTok, Instagram, and X without paid advertising." },
-      { metric: "Follower Growth", value: "+320%", description: "Grew from 3,200 to 48,000+ highly active community members." },
+      { metric: "Core Content Pillars", value: "4", description: "Established Education, Promotion, Entertainment, and Inspiration as the foundation of the social media strategy, creating a more diverse content mix." },
+      { metric: "Recurring Content Concepts", value: "8+", description: "Developed recurring series such as Mapping Insights, Mapping Mastery Series, GeoWise Wednesday, Tool Highlight Thursday, Feature Friday, The Precision Playbook, and Survey Facts Uncovered to create consistency and recognizable content formats." },
       { metric: "DTC Launch Conversion", value: "3.4x", description: "First batch of 20,000 cases sold out within 14 days of campaign rollout." }
     ]
   },
