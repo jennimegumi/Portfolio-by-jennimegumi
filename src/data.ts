@@ -46,7 +46,7 @@ export const DESIGNER_INFO = {
     {
       quote: "Jenny is a true visual artist—a creative force with mastery in digital and traditional media. Her work reflects a deep understanding of visual communication in graphic design, illustration, branding, or layout. She brings a fresh, original perspective to every project, making her creative output visually compelling and strategic.",
       author: "Jasper Briones",
-      role: "Marketing Manager, Havitas Developments Corporation "
+      role: "Digital Marketing Team Head & Consultant, RASA Surveying"
     },
     // {
     //   quote: "Jenny is a true visual artist—a creative force with mastery in digital and traditional media. Her work reflects a deep understanding of visual communication in graphic design, illustration, branding, or layout. She brings a fresh, original perspective to every project, making her creative output visually compelling and strategic.",

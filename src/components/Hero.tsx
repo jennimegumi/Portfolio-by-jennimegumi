@@ -287,7 +287,7 @@ export default function Hero({ onNavigate }: HeroProps) {
               </div>
               <div>
                 <span className="block text-[10px] font-extrabold text-black">Jasper Briones</span>
-                <span className="block text-[9px] font-mono font-bold text-zinc-600 leading-none">Marketing Manager, Havitas</span>
+                <span className="block text-[9px] font-mono font-bold text-zinc-600 leading-none">Digital Marketing Team Head & Consultant, RASA Surveying</span>
               </div>
             </div>
           </motion.div>
