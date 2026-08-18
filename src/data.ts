@@ -48,11 +48,11 @@ export const DESIGNER_INFO = {
       author: "Jasper Briones",
       role: "Digital Marketing Team Head & Consultant, RASA Surveying"
     },
-    // {
-    //   quote: "Jenny is a true visual artist—a creative force with mastery in digital and traditional media. Her work reflects a deep understanding of visual communication in graphic design, illustration, branding, or layout. She brings a fresh, original perspective to every project, making her creative output visually compelling and strategic.",
-    //   author: "Jasper Briones",
-    //   role: "Marketing Manager, Havitas Developments Corporation "
-    // }
+    {
+      quote: "During training, Jenny instantly set herself apart—not just by crushing the material, but by making sure her classmates kept up right alongside her. She took that same drive straight into live operations, where her work has been sharp, reliable, and consistently high quality. You can really see her hard work pay off in her portfolio; her time honing her design techniques at Mint shows in every piece she creates. On top of all that talent, she’s just a great friend and a genuine joy to have on the team.",
+      author: "Mark Lawrence Barberan",
+      role: "UnifyCX Team Manager"
+    }
   ]
 };
 
